@@ -1,0 +1,88 @@
+body {
+      background-color: whitesmoke;
+}
+
+h1{
+    font-family: sans-serif;
+    color: black;
+    font-size:45px;
+}
+h3 { 
+    font-family: sans-serif;
+    color: black;
+    font-size: 25px;
+}
+marquee {
+    font-family: sans-serif;
+    color:black;
+    font-size: 17px;
+}
+hr {
+    border: none;
+    border-top: 1.5px dashed black;
+    color: black;
+    background-color: whitesmoke;
+    height: 5px;
+    width: 100%;
+}
+p1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+p2 { font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+p3 { font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+p4 { font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: black;
+}
+p5 { font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+p6 { font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+p7 { font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+p8 { font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+p9 { font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+p10 { font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+p11 { font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+p12 { font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+p13 { font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+p14 { font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+p15 { font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+p16 { font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+p17 { font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+p18 { font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+p20 {
+    font-family: sans-serif;
+    color: black;
+    font-size: 15px;
+}
