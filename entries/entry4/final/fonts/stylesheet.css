@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Blank River';
+    src: url('BlankRiver.eot');
+    src: url('BlankRiver.eot?#iefix') format('embedded-opentype'),
+        url('BlankRiver.woff2') format('woff2'),
+        url('BlankRiver.woff') format('woff'),
+        url('BlankRiver.ttf') format('truetype'),
+        url('BlankRiver.svg#BlankRiver') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
