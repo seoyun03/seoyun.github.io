@@ -22,7 +22,7 @@ body, html {
 
   h1 {
         font-family: 'blankriver';
-        font-size: 20px;
+        font-size: 35px;
         color: black;
     
   }
@@ -56,10 +56,11 @@ h2 {
   font-size: 60px;
   font-weight: 50;
   align-items: center;
-  transition: transform 0.5s; /* 0.5s for the rotation animation duration */
+  transition: transform 0.5s, font-size 0.5s; /* 0.5s for both rotation and font-size animations */
 }
 
 h2:hover {
-  transform: rotate(360deg);
+  transform: rotate(360deg) scale(1.2); /* Rotate and scale the text */
+  font-size: 100px; /* Increase the font size on hover */
 }
 
