@@ -60,20 +60,67 @@ h2 {
 }
 
 h2:hover {
-  transform: rotate(360deg) scale(1.2); 
-  font-size: 100px; 
-}
-.container {
-  display: flex;
-  justify-content: space-between; /* Space elements evenly */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Adjust the height as needed */
+  transform: rotate(360deg) scale(1.2); /* Rotate and scale the text */
+  font-size: 80px; /* Increase the font size on hover */
+  margin: 0; /* Reset margin to ensure consistent layout */
 }
 
-#jasmine img,
-#wood img {
-  max-width: 50%; /* Adjust the maximum width to make the images smaller */
-  height: auto; /* Maintain the aspect ratio */
-  margin-left: 0; /* Remove any default margin to align them to the left */
+
+.notes {
+  font-family: 'blankriver';
+  font-size: 150px;
+  color: #000000;
+  font-kerning: 30px;
+  padding: 10px;
+  border: 20px;
+  margin: 90px;
+  margin-top: 60px;
+  transition: all 0.5s ease;
 }
+
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+}
+
+#left, #center, #right {
+  flex: 1;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+}
+
+.image-text {
+  font-family: 'blankriver';
+  font-size: 20px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none; /* Initially hidden */
+  background-color: rgba(0, 0, 0, 0.7); /* Background color for the text */
+  color: white; /* Text color */
+  padding: 10px;
+}
+
+.image-container:hover img{
+  opacity: 20%;
+}
+.image-container:hover .image-text {
+  display: block; /* Display the text when hovering over the container */
+}
+
 
