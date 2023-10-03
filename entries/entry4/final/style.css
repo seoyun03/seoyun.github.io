@@ -45,7 +45,7 @@ element.style {
 
 @font-face {
     font-family: 'blankriver';
-    src: url('/Users/sarah/Desktop/seoyun03.github.io/entries/entry4/BlankRiver.ttf');
+    src: url('BlankRiver.ttf');
     font-weight: normal;
     font-style: normal;
 }
