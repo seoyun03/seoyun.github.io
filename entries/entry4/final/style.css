@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(255, 107, 156);
+}
+
+body, html {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+  }
+
+  #title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+  }
+
+  .image1 {
+    width: 80%; 
+    height: auto; 
+  }
+
+  h1 {
+        font-family: 'blankriver';
+        font-size: 20px;
+        color: black;
+    
+  }
+
+  .vertical-line {
+    background-color: black;
+    top: 500px;
+    width: 3px;
+    left: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: 1px;
+    height: 800px;
+    margin-left: 50%;
+}
+
+element.style {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'blankriver';
+    src: url('/Users/sarah/Desktop/seoyun03.github.io/entries/entry4/BlankRiver.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+h2 {
+  font-family: 'blankriver';
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  font-weight: 50;
+  align-items: center;
+  transition: transform 0.5s; /* 0.5s for the rotation animation duration */
+}
+
+h2:hover {
+  transform: rotate(360deg);
+}
+
