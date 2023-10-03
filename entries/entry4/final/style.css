@@ -123,4 +123,9 @@ img {
   display: block; /* Display the text when hovering over the container */
 }
 
-
+p1 {
+  font-family: 'blankriver';
+  width: 7in;
+  font-size: 50px;
+  color: black;
+}
