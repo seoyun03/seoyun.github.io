@@ -6,17 +6,21 @@ body {
 
 .custom-text-box {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 150px;
+    font-size: 130px;
     position: absolute;
-    left: 100px;
+    left: 600px;
     top: 150px;
     width: 900px;
     height: 100px;
+    text-align: right;
+
 }
 
 .big-text {
-    font-size: 300px;
+    font-size: 210px;
 }
+
+
 
 .fixed {
     font-family: 'Bebas Neue', sans-serif;
@@ -39,21 +43,24 @@ body {
 }
 
 .mirror img {
-    max-width: 300px; /* Adjust the value to your desired smaller width */
+    max-width: 200px; /* Adjust the value to your desired smaller width */
     max-height: auto; /* Maintain the aspect ratio */
 }
 
 
+.icon {
+    position:absolute;
+    display: block;
+}
 .container {
     font-family: 'Bebas Neue', sans-serif;
     display: flex;
-    padding: 40px;
-    background-color: transparent;
-    opacity: 0.6;
-    min-height: 500px;
-    font-size: 40px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
     justify-content: center;
+    min-height: 1000px;
+    font-size: 20px;
+    text-align: center; /* Align text to the left */
 }
 
 .item1 {
@@ -66,9 +73,26 @@ body {
     background-color: #ffb45e;
 }
 .item {
-    margin: 10px 10px;
+    margin: 20px 200px;
+    align-items: center;
     width: 150px;
-    height: auto;
-    writing-mode: vertical-rl;
+    height: 50px;
+    writing-mode: horizontal-tb;
+    max-width: 700px;
 }
 
+
+
+.first {
+    position: sticky;
+    margin-left: 100px;
+    top: 0;
+    text-align: left;
+}
+.first img {
+    margin-left: 130px;
+    max-width: 800px;
+    height: auto;
+    margin-top: 500px; /* Adjust the value to move the image lower */
+
+}
