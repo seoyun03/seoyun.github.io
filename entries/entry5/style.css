@@ -95,12 +95,12 @@ body {
 }
 
 .centered-text {
-    text-align: center; /* Center text horizontally */
+    text-align: center; 
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    max-width: 50%; /* Ensure the text doesn't overflow its parent */
-    margin: 0 auto; /* Center the container horizontally */
+    max-width: 50%; 
+    margin: 0 auto; 
 }
 
 
@@ -125,9 +125,9 @@ body {
     writing-mode: horizontal-tb;
     max-width: 700px;
     opacity: 0;
-    visibility: hidden; /* Initially hide the items */
-    font-size: 18px; /* Adjust the font size as needed */
-    transition: visibility 0.5s ease-in-out; /* Add a smooth transition effect */
+    visibility: hidden; 
+    font-size: 18px; 
+    transition: visibility 0.5s ease-in-out; 
 }
 
 .container:hover .item {
