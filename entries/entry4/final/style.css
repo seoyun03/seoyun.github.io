@@ -55,9 +55,9 @@ element.style {
 }
 
 h2:hover {
-  transform: rotate(360deg) scale(1.2); /* Rotate and scale the text */
-  font-size: 80px; /* Increase the font size on hover */
-  margin: 0; /* Reset margin to ensure consistent layout */
+  transform: rotate(360deg) scale(1.2); 
+  font-size: 80px; 
+  margin: 0; 
 }
 
 
@@ -94,8 +94,8 @@ img {
 
 .image-container {
   position: relative;
-  width: 200px; /* Adjust the width as needed */
-  height: 200px; /* Adjust the height as needed */
+  width: 200px; 
+  height: 200px; 
 }
 
 .image-text {
@@ -105,9 +105,9 @@ img {
   top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: none; /* Initially hidden */
-  background-color: rgba(0, 0, 0, 0.7); /* Background color for the text */
-  color: white; /* Text color */
+  display: none; 
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: white; 
   padding: 10px;
 }
 
@@ -115,15 +115,15 @@ img {
   opacity: 20%;
 }
 .image-container:hover .image-text {
-  display: block; /* Display the text when hovering over the container */
+  display: block; 
 }
 
 
 .centered-text {
-  text-align: center; /* Center text horizontally */
+  text-align: center; 
   font-family: 'Permanent Marker', cursive;
   font-size: 20px;
   color: rgb(0, 0, 0);
-  max-width: 50%; /* Ensure the text doesn't overflow its parent */
-  margin: 0 auto; /* Center the container horizontally */
+  max-width: 50%; 
+  margin: 0 auto; 
 }
