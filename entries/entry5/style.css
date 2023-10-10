@@ -113,7 +113,17 @@ body {
     height: 50px;
     writing-mode: horizontal-tb;
     max-width: 700px;
+    opacity: 0;
+    visibility: hidden; /* Initially hide the items */
+    font-size: 18px; /* Adjust the font size as needed */
+    transition: visibility 0.5s ease-in-out; /* Add a smooth transition effect */
 }
+
+.container:hover .item {
+    opacity: 100;
+    visibility: visible;
+}
+
 
 
 
