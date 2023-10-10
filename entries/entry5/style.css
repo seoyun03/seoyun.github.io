@@ -4,6 +4,15 @@ body {
     padding: 0;
 }
 
+/* Add styles for the custom cursor */
+.custom-cursor {
+    position: absolute;
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+    pointer-events: none; /* Prevent cursor from interfering with elements */
+    transition: transform 0.2s ease; /* Add a smooth transition effect */
+}
+
 .custom-text-box {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 130px;
