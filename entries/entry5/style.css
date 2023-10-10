@@ -100,7 +100,7 @@ body {
     background-color: #ff9c5a;
 }
 .item3 {
-    background-color: #ff6320;
+    background-color: #ff7322;
     margin-bottom: 100px;
 }
 
@@ -137,6 +137,7 @@ body {
 .second img {
     width: 420px; 
     height: 300px;
+    margin-left: 600px;
 }
 
 
@@ -148,7 +149,7 @@ body {
 .third img {
     width: 840px; 
     height: 600px;
-    margin-left: 300px;
+    margin-left: 500px;
 
 }
 
@@ -167,7 +168,7 @@ body {
 
 .five {
     position: sticky;
-    top: 60px;
+    top: 200px;
     left: 100px;
 }
 
@@ -180,13 +181,13 @@ body {
 
 .six {
     position: sticky;
-    top: 110px;
+    top: 10px;
     left: 100px;
 }
 .six img {
     width: 200px; 
     height: 200px; 
-    margin-right: 1200px;
+    margin-left: 900px;
 }
 
 .seven {
@@ -195,9 +196,9 @@ body {
     left: 180px;
 }
 .seven img {
-    width: 200px; 
-    height: 200px; 
-    margin-left: 500px;
+    width: 300px; 
+    height: 300px; 
+    margin-left: 450px;
 }
 
 .eight {
@@ -208,7 +209,7 @@ body {
 .eight img {
     width: 400px; 
     height: 400px; 
-    margin-left: 200px;
+    margin-left: 600px;
 }
 
 .nine {
@@ -237,13 +238,13 @@ body {
 
 .eleven {
     position: sticky;
-    top: 60px;
+    top: 400px;
     left: 260px;
 }
 .eleven img {
-    width: 200px; 
-    height: 190px; 
-    margin-left: 0px;
+    width: 400px; 
+    height: 380px; 
+    margin-left: 500px;
     margin-bottom: 0px;
 }
 
