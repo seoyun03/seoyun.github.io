@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(204, 72, 24);
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
 }
@@ -13,11 +13,22 @@ body {
     width: 900px;
     height: 100px;
     text-align: right;
-
+    color: rgb(255, 86, 2);
 }
 
 .big-text {
-    font-size: 210px;
+    font-size: 200px; 
+    transition: font-size 0.4s; 
+}
+
+
+.custom-text-box p:hover {
+    color: rgb(255, 86, 2); 
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 80px;
+    margin-left: 0px;
+    margin-top: 200px;
+    
 }
 
 
@@ -25,7 +36,7 @@ body {
 .fixed {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     position: fixed;
     top: 0;
@@ -44,8 +55,27 @@ body {
 }
 
 .mirror img {
-    max-width: 200px; /* Adjust the value to your desired smaller width */
-    max-height: auto; /* Maintain the aspect ratio */
+    max-width: 200px; 
+    max-height: auto; 
+    motion-rotation: auto;
+}
+
+
+.rotate-3d {
+    width: 200px; 
+    height: 200px;
+    animation: rotateImage 8s linear infinite; 
+    transform-style: preserve-3d;
+}
+
+
+@keyframes rotateImage {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
 }
 
 
@@ -59,18 +89,18 @@ body {
     min-height: 1000px;
     font-size: 20px;
     text-align: center;
-    margin-bottom: 100px; /* Add margin between the container and the icon */
+    margin-bottom: 100px; 
 }
 
 
 .item1 {
-    background-color: #85211a;
+    background-color: #ffcfb8;
 }
 .item2 {
-    background-color: #df6a33;
+    background-color: #ff9c5a;
 }
 .item3 {
-    background-color: #ffb45e;
+    background-color: #ff6320;
     margin-bottom: 100px;
 }
 
@@ -95,47 +125,46 @@ body {
     left: 20px;
 }
 .first img {
-    width: 840px; /* Set the width and height as needed */
+    width: 840px; 
     height: 600px;
 }
 
 .second {
     position: sticky;
-    top: 0px; /* Adjust the top value to your desired position */
-    right: 0px; /* Set right to position on the right side */
+    top: 0px; 
+    right: 0px; 
 }
 .second img {
-    width: 420px; /* Set the width and height as needed */
+    width: 420px; 
     height: 300px;
 }
 
 
-/* Adjust the position of the third icon */
 .third {
     position: sticky;
-    top: 110px; /* Adjust the top value to your desired position */
+    top: 110px; 
     left: 20px;
 }
 .third img {
-    width: 840px; /* Set the width and height as needed */
+    width: 840px; 
     height: 600px;
     margin-left: 300px;
 
 }
 
 
-/* Adjust the position of the fourth icon */
+
 .fourth {
     position: sticky;
     top: 0px;
     left: 20px;
 }
 .fourth img {
-    width: 300px; /* Set the width as needed */
-    height: auto; /* Maintain the aspect ratio */
+    width: 300px; 
+    height: auto; 
     margin-left: 1300px;
 }
-/* Adjust the position of the fifth icon */
+
 .five {
     position: sticky;
     top: 60px;
@@ -143,89 +172,89 @@ body {
 }
 
 .five img {
-    width: 300px; /* Set the width as needed */
-    height: 300px; /* Maintain the aspect ratio */
+    width: 300px; 
+    height: 300px; 
     margin-left: 1200px;
 }
 
-/* Adjust the position of the sixth icon */
+
 .six {
     position: sticky;
     top: 110px;
     left: 100px;
 }
 .six img {
-    width: 200px; /* Set the width as needed */
-    height: 200px; /* Maintain the aspect ratio */
+    width: 200px; 
+    height: 200px; 
     margin-right: 1200px;
 }
-/* Adjust the position of the seventh icon */
+
 .seven {
     position: sticky;
     top: 10px;
     left: 180px;
 }
 .seven img {
-    width: 200px; /* Set the width as needed */
-    height: 200px; /* Maintain the aspect ratio */
+    width: 200px; 
+    height: 200px; 
     margin-left: 500px;
 }
-/* Adjust the position of the eighth icon */
+
 .eight {
     position: sticky;
     top: 60px;
     left: 180px;
 }
 .eight img {
-    width: 400px; /* Set the width as needed */
-    height: 400px; /* Maintain the aspect ratio */
+    width: 400px; 
+    height: 400px; 
     margin-left: 200px;
 }
-/* Adjust the position of the ninth icon */
+
 .nine {
     position: sticky;
     top: 0px;
     left: 20px;
 }
 .nine img {
-    width: 200px; /* Set the width as needed */
-    height: 190px; /* Maintain the aspect ratio */
+    width: 200px; 
+    height: 190px; 
     margin-right: 1290px;
     margin-bottom: 0px;
 }
-/* Adjust the position of the tenth icon */
+
 .ten {
     position: sticky;
     top: 500px;
     left: 260px;
 }
 .ten img {
-    width: 350px; /* Set the width as needed */
-    height: 350px; /* Maintain the aspect ratio */
+    width: 350px;
+    height: 350px; 
     margin-left: 1290px;
     margin-bottom: 0px;
 }
-/* Adjust the position of the eleventh icon */
+
 .eleven {
     position: sticky;
     top: 60px;
     left: 260px;
 }
 .eleven img {
-    width: 200px; /* Set the width as needed */
-    height: 190px; /* Maintain the aspect ratio */
+    width: 200px; 
+    height: 190px; 
     margin-left: 0px;
     margin-bottom: 0px;
 }
-/* Adjust the position of the twelfth icon */
+
 .twelve {
     position: sticky;
     top: 76%;
     margin-right: 800px;
 }
 .twelve img {
-    width: 300px; /* Set the width as needed */
-    height: 300px; /* Maintain the aspect ratio */
+    width: 300px; 
+    height: 300px; 
     margin-right: 0px;
     margin-bottom: 0px;
 }
