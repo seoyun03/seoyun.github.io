@@ -21,7 +21,7 @@ body, html {
   }
 
   h1 {
-        font-family: 'blankriver';
+        font-family: 'Permanent Marker', cursive;
         font-size: 35px;
         color: black;
     
@@ -43,24 +43,12 @@ element.style {
     text-align: center;
 }
 
-@font-face {
-  font-family: 'Blank River';
-  src: url('/Users/sarah/Desktop/seoyun03.github.io/index.html');
-  src: url('BlankRiver.eot?#iefix') format('embedded-opentype'),
-      url('BlankRiver.woff2') format('woff2'),
-      url('BlankRiver.woff') format('woff'),
-      url('BlankRiver.ttf') format('truetype'),
-      url('BlankRiver.svg#BlankRiver') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
-h2 {
-  font-family: 'blankriver';
+.notes {
+  font-family: 'Permanent Marker', cursive;
   text-align: center;
   color: rgb(0, 0, 0);
-  font-size: 60px;
+  font-size: 10px;
   font-weight: 50;
   align-items: center;
   transition: transform 0.5s, font-size 0.5s; 
@@ -74,7 +62,7 @@ h2:hover {
 
 
 .notes {
-  font-family: 'blankriver';
+  font-family: 'Permanent Marker', cursive;
   font-size: 150px;
   color: #000000;
   font-kerning: 30px;
@@ -111,7 +99,7 @@ img {
 }
 
 .image-text {
-  font-family: 'blankriver';
+  font-family: 'Permanent Marker', cursive;
   font-size: 20px;
   position: absolute;
   top: 75%;
@@ -130,9 +118,12 @@ img {
   display: block; /* Display the text when hovering over the container */
 }
 
-p1 {
-  font-family: 'blankriver';
-  width: 5in;
-  font-size: 50px;
-  color: black;
+
+.centered-text {
+  text-align: center; /* Center text horizontally */
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  max-width: 50%; /* Ensure the text doesn't overflow its parent */
+  margin: 0 auto; /* Center the container horizontally */
 }
