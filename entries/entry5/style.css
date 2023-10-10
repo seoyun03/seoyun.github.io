@@ -25,7 +25,7 @@ body {
 .fixed {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     position: fixed;
     top: 0;
