@@ -8,64 +8,82 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    width: 100px;
-    height: 20px;
-    z-index: -1; 
+    width: 100%;
+    height: 60%;
+    z-index: -1;
+    display: block;
 }
 
 .background img {
-    width: 1680px;
-    height: 70px;
-    
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
-.p {
+
+
+
+.first {
     color: white;
     font-size: 2.3vh;
     white-space: nowrap;
     opacity: 100;
-    width: 1100px;
-    margin-top: 70px;
-    margin-left: 10px;
+    max-width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing1 3s steps(40, end) forwards;
 }
 
-#first, #second, #third {
+.second {
+    color: white;
+    font-size: 2.3vh;
+    white-space: nowrap;
+    opacity: 0; 
+    max-width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing2 3s steps(40, end) forwards; 
+}
+
+
+.second {
+    animation-delay: 3s; 
+}
+
+
+.first, .second {
     white-space: nowrap;
     overflow: hidden;
     width: 0;
     animation-fill-mode: forwards;
 }
 
-#first {
-    font-family: 'Pixelify Sans', sans-serif;
-    font-size: 20px;
-    color: white;
-    margin-top: 65px;
-    margin-left: 20px;
-    animation: type1 3s steps(40, end) forwards;
+@media screen and (max-width: 768px) {
+    .first, .second {
+        font-family: 'Pixelify Sans', sans-serif;
+        font-size: 0.8vh;
+    }
 }
 
-#second {
-    font-family: 'Pixelify Sans', sans-serif;
-    font-size: 20px;
-    color: white;
-    margin-top: 20px;
-    margin-left: 20px;
-    animation: type2 3s steps(60, end) forwards;
-    animation-delay: 2.5s; /* Delay the start of the second animation */
-}
-#third {
-    font-family: 'Pixelify Sans', sans-serif;
-    font-size: 20px;
-    color: white;
-    margin-top: 5px;
-    margin-left: 20px;
-    animation: type2 3s steps(60, end) forwards;
-    animation-delay: 5s; /* Delay the start of the second animation */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .first, .second {
+        font-family: 'Pixelify Sans', sans-serif;
+        font-size: 1vh;
+    }
 }
 
+@media screen and (min-width: 1025px) {
+    .first, .second {
+        font-family: 'Pixelify Sans', sans-serif;
+        font-size: 2.3vh;
+    }
+}
 
-@keyframes type1 {
+@keyframes typing1 {
     from {
         width: 0;
     }
@@ -74,117 +92,187 @@ body {
     }
 }
 
-@keyframes type2 {
+@keyframes typing2 {
     from {
         width: 0;
     }
     to {
         width: 100%;
-    }
-}
-@keyframes type3 {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
+        opacity: 100; 
     }
 }
 
-/* .icon1 {
+.third {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: rgb(0, 255, 30);
+    font-size: 2.3vh;
+    opacity: 0; /* Start with opacity set to 0 */
     position: absolute;
-    top: 100px;
-    left: 20px;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    overflow: hidden;
+    animation: blink 1.5s infinite; /* Repeats the animation infinitely every 2 seconds */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .background {
+        height: 50%;
+    }
+    .third {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .background {
+        height: 60%;
+    }
+    .third {
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Seven equal columns */
+    gap: 20px; /* Spacing between grid items */
+    position: absolute;
+    top: 900px;
+  }
+  
+  .image {
+    border: 1px solid #ccc; /* Optional styling for grid items (images) */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .image img {
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+    display: block;
+  }
+  
+.one {
+    position: absolute;
+    top: 900px;
+    left: 500px;
 
 }
 
-.icon1 img {
-    width: 60px;
-    height: 60px;
+.one img {
+    width: 50px;
+    height: 50px;
     margin-left: 13px;
     max-width: 100%;
     display: block;
 }
 
-.icon2 {
+.two {
     position: absolute;
-    top: 250px;
-    left: 20px;
+    top: 900px;
+    left: 600px;
 
 }
 
-.icon2 img {
-    width: 60px;
-    height: 60px;
+.two img {
+    width: 50px;
+    height: 50px;
+    margin-left: 13px;
+    max-width: 100%;
+    display: block;
+}
+.three {
+    position: absolute;
+    top: 900px;
+    left: 700px;
+
+}
+
+.three img {
+    width: 50px;
+    height: 50px;
     margin-left: 13px;
     max-width: 100%;
     display: block;
 }
 
-.icon3 {
+.four {
     position: absolute;
-    top: 400px;
-    left: 20px;
+    top: 900px;
+    left: 800px;
 
 }
 
-.icon3 img {
-    width: 60px;
-    height: 60px;
+.four img {
+    width: 50px;
+    height: 50px;
+    margin-left: 13px;
+    max-width: 100%;
+    display: block;
+}
+.five {
+    position: absolute;
+    top: 900px;
+    left: 900px;
+
+}
+
+.five img {
+    width: 50px;
+    height: 50px;
     margin-left: 13px;
     max-width: 100%;
     display: block;
 }
 
-.icon4 {
+.six {
     position: absolute;
-    top: 600px;
-    left: 20px;
+    top: 900px;
+    left: 1000px;
 
 }
 
-.icon4 img {
-    width: 60px;
-    height: 60px;
+.six img {
+    width: 50px;
+    height: 50px;
     margin-left: 13px;
     max-width: 100%;
     display: block;
 }
-
-.icon5 {
+.seven {
     position: absolute;
-    top: 700px;
-    left: 20px;
+    top: 900px;
+    left: 1100px;
+
 }
 
-.icon5 img {
-    width: 60px;
-    height: 60px;
+.seven img {
+    width: 50px;
+    height: 50px;
     margin-left: 13px;
     max-width: 100%;
     display: block;
-}
-
-
-@media (max-width: 767px) {
-    .icon img {
-        max-width: 20%;
-        top: 170px;
-        left: 700px;
-    }
-}
-
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .icon img {
-        max-width: 50%;
-    }
-}
-
-
-@media (min-width: 1024px) {
-    .icon img {
-        max-width: 100;
-    }
 }
 
