@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-family: NeoDunggeunmoPro-Regular, 'NeoDunggeunmo Pro';
+        font-size: 30.75px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-3" x="1" y="1" width="1918" height="78"/>
+    <path class="cls-2" d="m1918,2v76H2V2h1916m2-2H0v80h1920V0h0Z"/>
+  </g>
+  <g id="QhkrVQ.tif">
+    <image id="Layer_0" data-name="Layer 0" width="232" height="256" transform="translate(20 18) scale(.17)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOkAAAEBCAYAAACdV4K4AAAACXBIWXMAAEBIAABASAEFX6MRAAAEFklEQVR4nO3dQW7iQBBA0TDKveBmNDeDk2X2I8UdjWn4kPe2dmIr4qsWFZvDx5ONMb6efQ/wLGOMw+ycP4+4EeD/iRTiRApxIoU4kUKcSCFOpBD3ufoCsz3o6XRafQuwzPF43Dx+uVxmv2L2fwIHkxTiRApxIoU4kUKcSCFOpBAnUojbvSe1B+Wd3WEPuptJCnEihTiRQpxIIU6kECdSiBMpxE33pLM96Pl8vt/dQMwj9qAzJinEiRTiRApxIoU4kUKcSCFOpBD3uXcPervd7nk/wD9MUogTKcSJFOJECnEihTiRQpxIIW7595Ner9fVl4BvvcOe3ySFOJFCnEghTqQQJ1KIEynEiRTilu9JxxirLwHfeof3QpukECdSiBMpxIkU4kQKcSKFOJFCnEghTqQQJ1KIEynEiRTiRApxIoU4kUKcSCFOpBAnUogTKcSJFOJECnEihTiRQpxIIU6kECdSiBMpxIkU4kQKcSKFOJFCnEghTqQQJ1KIEynEiRTiRApxIoU4kUKcSCFOpBAnUogTKcSJFOJECnEihTiRQpxIIU6kECdSiBMpxIkU4kQKcSKFOJFCnEghTqQQJ1KIEynEiRTiRApxIoU4kUKcSCFOpBAnUogTKcSJFOJECnEihTiRQpxIIU6kECdSiBMpxIkU4kQKcSKFOJFCnEghTqQQJ1KIEynEiRTiRApxIoU4kUKcSCFOpBAnUogTKcSJFOJECnEihTiRQpxIIU6kECdSiBMpxIkU4kQKcSKFOJFCnEghTqQQJ1KIEynEiRTiRApxIoU4kUKcSCFOpBAnUogTKcSJFOJECnEihTiRQtzn6gt8fX2tvgS8NZMU4kQKcSKFOJFCnEghTqQQJ1KIW74nvd1uqy8BWWOM2SmH2QkmKcSJFOJECnEihTiRQpxIIU6kEDfdk14ul0fcB7yke+xBZ0xSiBMpxIkU4kQKcSKFOJFCnEgh7ic7HC/Ohe/t3oPOmKQQJ1KIEynEiRTiRApxIoU4kULc8h3PqxtjbO6Jz+fz5s/X3zt8vV43jz/ieUm2maQQJ1KIEynEiRTiRApxIoU4kULc8u8nXW22x2Tb6XTaPP6DPenSv/8Y49fvYU1SiBMpxIkU4kQKcSKFOJFCnEgh7uk7qL17ztmeb6/j8bh5vP68aN3sedaZ3/C8q0kKcSKFOJFCnEghTqQQJ1KIEynELd8h7X1v7bPZgz6XPapJCnkihTiRQpxIIU6kECdSiBMpxL38e3dn7Dl5dSYpxIkU4kQKcSKFOJFCnEghTqQQV3iWbtd7d2fPG87em8u2vXvmBzwPOlP4jO9ikkKcSCFOpBAnUogTKcSJFOJECnEvv0P62LlnJe8dPqO7mKQQJ1KIEynEiRTiRApxIoU4kQLAHn8BfMZkEF+PvRQAAAAASUVORK5CYII="/>
+  </g>
+  <text class="cls-4" transform="translate(217.82 47.75)"><tspan x="0" y="0">File</tspan></text>
+  <text class="cls-4" transform="translate(91.82 47.75)"><tspan x="0" y="0">Pro</tspan><tspan class="cls-1" x="46.12" y="0">f</tspan><tspan x="55.73" y="0">iler</tspan></text>
+  <text class="cls-4" transform="translate(290.53 47.75)"><tspan x="0" y="0">Edit</tspan></text>
+  <text class="cls-4" transform="translate(362.55 47.75)"><tspan x="0" y="0">View</tspan></text>
+  <text class="cls-4" transform="translate(441.19 47.75)"><tspan x="0" y="0">Window</tspan></text>
+  <text class="cls-4" transform="translate(552.49 47.75)"><tspan x="0" y="0">Help</tspan></text>
+  <text class="cls-4" transform="translate(1818.84 47.94)"><tspan x="0" y="0">10:30</tspan></text>
+</svg>
