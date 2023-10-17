@@ -211,7 +211,7 @@ body {
 
 .image-grid img.hover:hover {
     opacity: 1;
-    transform: scale(5);
+    transform: scale(2.2);
 }
 
 @media screen and (max-width: 768px) {
