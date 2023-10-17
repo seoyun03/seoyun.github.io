@@ -185,6 +185,7 @@ body {
     gap: 30px;
     align-items: end; 
     margin-top: 900px;
+    z-index: 1;
 }
 
 .image-grid div {
@@ -204,11 +205,13 @@ body {
     margin-top: 5px;
     opacity: 0; 
     transition: opacity 0.2s, transform 0.5s;
+    z-index: 2;
 }
+
 
 .image-grid img.hover:hover {
     opacity: 1;
-    transform: scale(2);
+    transform: scale(5);
 }
 
 @media screen and (max-width: 768px) {
