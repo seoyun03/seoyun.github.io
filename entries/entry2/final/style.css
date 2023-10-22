@@ -27,7 +27,7 @@ h4 {
         opacity: 0;
     }
     50% {
-        opacity: 5;
+        opacity: 2;
     }
     100% {
         opacity: 0;
@@ -94,3 +94,8 @@ p18 {
     font-size: 18px;
     color: rgb(69, 52, 36);
 }
+
+.highlight {
+    background-color: rgb(246, 255, 0); 
+  }
+  
