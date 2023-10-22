@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(255, 197, 82);
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+h3 {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+h4 {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+hr {
+    border: none;
+    border-top: 1.5px dashed rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    height: 5px;
+    width: 100%;
+}
+
+.marquee {
+    font-family: sans-serif;
+}
+p1 { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+p2 { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+p3 { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+
+p14{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;text-align: right;
+    color: rgb(0, 0, 0);
+}
+p15 { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px; text-align: right;
+    color: rgb(0, 0, 0);
+}
+p16 { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+p17 { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+p18 { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
