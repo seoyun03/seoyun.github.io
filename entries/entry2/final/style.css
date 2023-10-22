@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(80, 173, 26);
+    background-color: rgb(91, 197, 29);
 }
 
 h1 {
@@ -8,12 +8,13 @@ h1 {
     font-style: normal;
     color: rgb(69, 52, 36);
     font-size: 150px;
+    word-spacing: -10px;
 }
 h4 {
     font-family: "roc-grotesk", sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: rgb(69, 52, 36);
+    color: rgb(246, 255, 0);
     font-size: 30px;
     overflow: hidden;
     animation: blink 1.9s infinite; 
@@ -47,31 +48,49 @@ h4 {
     position: relative;
 }
 
-p15 {
+
+  
+.floating-text {
     font-family: "roc-grotesk", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 60px;
     color: rgb(69, 52, 36);
-}
+    text-align: center;
+    animation: floating 1.8s infinite;
+  }
+
+  @keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
 p16 { 
     font-family: "roc-grotesk", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(69, 52, 36);
 }
 p17 { 
     font-family: "roc-grotesk", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(69, 52, 36);
 }
 p18 { 
     font-family: "roc-grotesk", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(69, 52, 36);
 }
