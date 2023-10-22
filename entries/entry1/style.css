@@ -1,21 +1,27 @@
 body {
-    background-color: rgb(255, 197, 82);
+    background-color: #ffe730;
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     color: rgb(0, 0, 0);
     font-size: 60px;
 }
 h3 {
-    font-family: sans-serif;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color: rgb(0, 0, 0);
     font-size: 20px;
 
 }
 h4 {
-    font-family: sans-serif;
-    color: rgb(0, 0, 0);
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(23, 7, 255);
     font-size: 20px;
 }
 hr {
@@ -26,48 +32,76 @@ hr {
     width: 100%;
 }
 
-.marquee {
-    font-family: sans-serif;
-}
 p1 { 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 13px;
     color: rgb(0, 0, 0);
 }
 p2 { 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 13px;
     color: rgb(0, 0, 0);
 }
 p3 { 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 13px;
     color: rgb(0, 0, 0);
 }
-
+.custom-font {
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+  }
+  
+  
 
 p14{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 13px;text-align: right;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
     color: rgb(0, 0, 0);
 }
 p15 { 
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 13px; text-align: right;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px; 
     color: rgb(0, 0, 0);
 }
 p16 { 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 13px;
     color: rgb(0, 0, 0);
 }
 p17 { 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 13px;
     color: rgb(0, 0, 0);
 }
 p18 { 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+p20 { 
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
     color: rgb(0, 0, 0);
 }
