@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 107, 156);
+    background-color: rgb(255, 61, 126);
 }
 
 body, html {
@@ -122,8 +122,8 @@ img {
 .centered-text {
   text-align: center; 
   font-family: 'Permanent Marker', cursive;
-  font-size: 20px;
+  font-size: 30px;
   color: rgb(0, 0, 0);
-  max-width: 50%; 
+  max-width: 70%; 
   margin: 0 auto; 
 }
