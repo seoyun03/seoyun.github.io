@@ -18,11 +18,12 @@ body {
   
 
   h1 {
-    font-family: 'Dela Gothic One', sans-serif;;
+    font-family: 'Dela Gothic One', sans-serif;
     font-size: 150px;
     color: rgb(31, 98, 255);
     animation: floatText 1.5s ease infinite; 
   }
+
 
 
 h2 {
@@ -31,8 +32,6 @@ h2 {
     color: rgb(31, 98, 255);
 
 }
-
-
 #myp1 {
     display: flex;
     justify-content: space-between; 
@@ -66,150 +65,85 @@ hr {
 }
 
 
-@font-face {
-    font-family: 'PrimeformProDemo-Medium';
-    src: url('/Users/sarah/Downloads/primeform_pro/PrimeformProDemo-Medium.otf');
-    font-weight: normal;
-    font-style: normal;
+
+.first {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center; 
+  color: rgb(31, 98, 255);
+  font-size: 23px;
+  align-items: center;
+  max-width: 100%;
+
 }
 
 
-p1 {
-    font-family: 'PrimeformProDemo-Medium', sans-serif;
-    text-align: center; 
-    color: rgb(31, 98, 255);
-    font-size: 23px;
-    font-weight: 50;
-    align-items: center;
+.myDiv {
+  font-family: 'Dela Gothic One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(31, 98, 255);
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+  align-items: center;
+}
+
+.left-text, .center-text, .right-text {
+  flex: 1;
+  text-align: center;
+}
+
+.myDiv div:hover {
+  transform: scale(1.9);
+  transition: transform 0.4s;
 }
 
 
-#myParagraph {
-    font-family: 'PrimeformProDemo-Medium', sans-serif;
-    color: rgb(31, 98, 255);
-    display: flex;
-    justify-content: space-around;
-    font-size: 30px;
-    font-weight: 900;
-    align-items: center;
-  }
-  
-  .left-text {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .center-text {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .right-text {
-    flex: 1;
-    text-align: center;
-  }
-  #myParagraph span:hover {
-    transform: scale(1.9); 
-    transition: transform 0.4s; 
-  }
+
+
 
 #myPP {
-    display: flex;
-    justify-content: space-between;
-    font-size: 40px;
-    font-family: 'Newsreader', serif;
-    color: rgb(31, 98, 255);
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(31, 98, 255);
 }
-  
-  .left-text {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .center-text {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .right-text {
-    flex: 1;
-    text-align: center;
-  }
 
-
-#round {
-    font-family: 'PrimeformProDemo-Medium', sans-serif;
-    border: 1px solid rgb(31, 98, 255);
-    border-radius: 24px;
-    padding: 5px;
-}
-  .left-text {
-    text-align: left;
-}
-  .center-text {
-    text-align: center;
-}
-  .right-text {
-    text-align: center;
+.left-text, .center-text, .right-text {
+  flex: 1;
+  text-align: center;
 }
 
 
-.button-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 40px;
 
-  }
+
   
-  .left-button,
-  .center-button,
-  .right-button {
-    flex: 1; 
-    padding: 10px 5px; 
-    border: 2px solid rgb(31, 98, 255);
-    border-radius: 30px; 
-    background-color: transparent; 
-    color: rgb(31, 98, 255); 
-    font-size: 20px; 
-    font-family: 'PrimeformProDemo-Medium', sans-serif;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s; 
-  }
-  
-  .left-button:hover,
-  .center-button:hover,
-  .right-button:hover {
-    background-color: rgb(31, 98, 255); 
-    color: white;
-  }
-  
-  
-#mypP {
-    display: flex;
-    justify-content: space-between;
-    font-size: 25px;
-    font-family: 'PrimeformProDemo-Medium', sans-serif;
-    color: rgb(31, 98, 255);
+
+#four {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(31, 98, 255);
 }
-  
-  .left-text {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .center-text {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .right-text {
-    flex: 1;
-    text-align: center;
-  }
+
+.flex-container {
+  flex: 1;
+  text-align: center;
+}
+
   
 
-  p {
+
+
+p {
     font-family: 'Newsreader', serif;
     font-size: 150px;
     text-align: center;
@@ -217,14 +151,17 @@ p1 {
   }
 
 
-p2 {
-    font-family: 'PrimeformProDemo-Medium', sans-serif;
-    font-size: 15px;
-    text-align: center;
+.six {
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    font-size: 20px;
     color: rgb(31, 98, 255);
-    margin-bottom: auto;
+    max-width: 70%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto; 
 }
-  
   
   
   
