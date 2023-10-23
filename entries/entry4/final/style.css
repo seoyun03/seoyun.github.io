@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(255, 61, 126);
+  background-color: rgb(255, 44, 115);
 }
 
 h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Sedgwick Ave Display', cursive;
   font-size: 25px;
   color: black;
 }
@@ -22,22 +22,23 @@ h1 {
 
 
 .vertical-line {
-  background-color: black;
+  background-color: transparent; 
   top: 500px;
   width: 3px;
   left: 50%;
   margin-top: 100px;
   margin-bottom: 100px;
-  border-left: 1px;
+  border-left: 4px dashed black;
   height: 800px;
   margin-left: 50%;
 }
 
 
+
 .perfume {
   max-height: 20%;
   max-width: 20%;
-  margin-left: 670px;
+  margin-left: 667px;
   align-items: center;
   transition: transform 0.5s; /* Add a transition for smooth rotation */
 }
@@ -46,7 +47,24 @@ h1 {
   transform: rotate(360deg); /* Rotate the image 360 degrees on hover */
 }
 
+.link {
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 20px;
+  text-align: center; 
+  width: 100%; 
+  margin-top: 50px;
+}
 
+.vertical-line1 {
+  background-color: transparent;
+  width: 3px;
+  left: 50%;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  border-left: 4px dashed black;
+  height: 800px;
+  margin-left: 50%;
+}
 
 
 
@@ -55,8 +73,8 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100vh;
-  padding: 20px;
+  height: 70vh;
+  padding: 80px;
 }
 
 .image-section {
@@ -76,7 +94,7 @@ img {
 }
 
 .image-description {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Sedgwick Ave Display', cursive;
   font-size: 20px;
   position: absolute;
   top: 75%;
@@ -99,7 +117,8 @@ img {
 
 .centered-text {
   text-align: center;
-  font-family: 'Permanent Marker', cursive;
+  word-spacing: 10px;
+  font-family: 'Sedgwick Ave Display', cursive;
   font-size: 30px;
   color: rgb(0, 0, 0);
   max-width: 65%;
