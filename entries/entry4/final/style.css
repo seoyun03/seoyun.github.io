@@ -1,80 +1,57 @@
 body {
-    background-color: rgb(255, 61, 126);
+  background-color: rgb(255, 61, 126);
 }
 
-body, html {
-    height: 100%; 
-    margin: 0; 
-    padding: 0; 
-  }
-
-  #title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%; 
-  }
-
-  .image1 {
-    width: 80%; 
-    height: auto; 
-  }
-
-  h1 {
-        font-family: 'Permanent Marker', cursive;
-        font-size: 25px;
-        color: black;
-    
-  }
-
-  .vertical-line {
-    background-color: black;
-    top: 500px;
-    width: 3px;
-    left: 50%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-left: 1px;
-    height: 800px;
-    margin-left: 50%;
-}
-
-element.style {
-    text-align: center;
-}
-
-
-.notes {
+h1 {
   font-family: 'Permanent Marker', cursive;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-size: 10px;
-  font-weight: 50;
+  font-size: 25px;
+  color: black;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  transition: transform 0.5s, font-size 0.5s; 
+  height: 100%;
 }
 
-h2:hover {
-  transform: rotate(360deg) scale(1.2); 
-  font-size: 80px; 
-  margin: 0; 
-}
-
-
-.notes {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 150px;
-  color: #000000;
-  font-kerning: 30px;
-  padding: 10px;
-  border: 20px;
-  margin: 90px;
-  margin-top: 60px;
-  transition: all 0.5s ease;
+.title img {
+  width: 80%;
+  height: auto;
 }
 
 
-#container {
+.vertical-line {
+  background-color: black;
+  top: 500px;
+  width: 3px;
+  left: 50%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-left: 1px;
+  height: 800px;
+  margin-left: 50%;
+}
+
+
+.perfume {
+  max-height: 20%;
+  max-width: 20%;
+  margin-left: 670px;
+  align-items: center;
+  transition: transform 0.5s; /* Add a transition for smooth rotation */
+}
+
+.perfume:hover {
+  transform: rotate(360deg); /* Rotate the image 360 degrees on hover */
+}
+
+
+
+
+
+
+.images-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -82,7 +59,7 @@ h2:hover {
   padding: 20px;
 }
 
-#left, #center, #right {
+.image-section {
   flex: 1;
   text-align: center;
 }
@@ -92,38 +69,39 @@ img {
   height: auto;
 }
 
-.image-container {
+.image-section {
   position: relative;
-  width: 200px; 
-  height: 200px; 
+  width: 200px;
+  height: 200px;
 }
 
-.image-text {
+.image-description {
   font-family: 'Permanent Marker', cursive;
   font-size: 20px;
   position: absolute;
   top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: none; 
-  background-color: rgba(0, 0, 0, 0.7); 
-  color: white; 
+  display: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
   padding: 10px;
 }
 
-.image-container:hover img{
+.image-section:hover img {
   opacity: 20%;
 }
-.image-container:hover .image-text {
-  display: block; 
+
+.image-section:hover .image-description {
+  display: block;
 }
 
 
 .centered-text {
-  text-align: center; 
+  text-align: center;
   font-family: 'Permanent Marker', cursive;
   font-size: 30px;
   color: rgb(0, 0, 0);
-  max-width: 70%; 
-  margin: 0 auto; 
+  max-width: 65%;
+  margin: 0 auto;
 }
