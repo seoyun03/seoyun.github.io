@@ -10,6 +10,31 @@ h1 {
     font-size: 150px;
     word-spacing: -10px;
 }
+.tamdao {
+    background-color: rgb(69, 52, 36); 
+    color: rgb(246, 255, 0);
+    padding: 3px; 
+  }
+  
+  .diptyque {
+    background-color: rgb(246, 255, 0); 
+    color: rgb(69, 52, 36); 
+    padding: 3px; 
+  }
+  
+  .tamdao:hover {
+    background-color: rgb(246, 255, 0); 
+    color: rgb(69, 52, 36); 
+    padding: 3px;
+  }
+  
+  .diptyque:hover {
+    background-color: rgb(69, 52, 36); 
+    color: rgb(246, 255, 0);
+    padding: 3px; 
+  }
+  
+  
 h4 {
     font-family: "roc-grotesk", sans-serif;
     font-weight: 600;
