@@ -38,14 +38,40 @@ h1 {
 .perfume {
   max-height: 20%;
   max-width: 20%;
-  margin-left: 667px;
-  align-items: center;
-  transition: transform 0.5s; /* Add a transition for smooth rotation */
+  margin: 0 auto; /* Center horizontally */
+  display: flex;
+  justify-content: center; /* Center vertically */
+  transition: transform 0.5s;
 }
 
 .perfume:hover {
-  transform: rotate(360deg); /* Rotate the image 360 degrees on hover */
+  transform: rotate(360deg);
 }
+
+@media (min-width: 200px) {
+  .perfume img {
+    width: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .perfume img {
+    width: 250px;
+  }
+}
+
+@media (min-width: 992px) {
+  .perfume img {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .perfume img {
+    width: 400px;
+  }
+}
+
 
 .link {
   font-family: 'Sedgwick Ave Display', cursive;
