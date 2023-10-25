@@ -75,7 +75,7 @@ h4 {
 
 
   
-.floating-text {
+.text {
     font-family: "roc-grotesk", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -83,18 +83,6 @@ h4 {
     color: rgb(69, 52, 36);
     text-align: center;
     animation: floating 1.8s infinite;
-  }
-
-  @keyframes floating {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-5px);
-    }
-    100% {
-      transform: translateY(0);
-    }
   }
 
 
