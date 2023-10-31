@@ -2,6 +2,7 @@ body {
     background-color: #000000;
 }
 
+
 .item-list {
   list-style: none;
   padding: 0;
@@ -16,7 +17,7 @@ body {
 }
 
 .item a {
-  margin-top: 590px;
+  margin-top: 580px;
   display: block;
   padding: 20px;
   text-decoration: none;
