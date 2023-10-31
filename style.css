@@ -17,7 +17,7 @@ body {
 }
 
 .item a {
-  margin-top: 580px;
+  margin-top: 570px;
   display: block;
   padding: 20px;
   text-decoration: none;
@@ -41,15 +41,93 @@ body {
   font-size: 130px;
   color: #ff04cd;
   position: absolute;
-  top: 45%;
+  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
 
+.text1 {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 90px; 
+  left: 500px; 
+  transform: translateX(-50%);
+}
 
+.text2 {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 480px; 
+  right: 10px; 
+  transform: translateX(-50%);
+}
 
+.text3 {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 50px; 
+  right: 400px; 
+  transform: translateX(-50%);
+}
 
+.text4 {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 300px; 
+  left: 300px; 
+  transform: translateX(-50%);
+}
 
-  
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.text1, .text2, .text3, .text4 {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  color: #d94fff;
+  position: absolute;
+  transform: translateX(-50%);
+  animation: blink 1.9s infinite; 
+}
+
+.text1 {
+  top: 90px;
+  left: 500px;
+}
+
+.text2 {
+  bottom: 480px;
+  right: 10px;
+}
+
+.text3 {
+  bottom: 50px;
+  right: 400px;
+}
+.text4 {
+  bottom: 300px;
+  left: 300px;
+}
