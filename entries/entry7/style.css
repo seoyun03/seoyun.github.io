@@ -4,6 +4,7 @@ body {
     padding: 0;
 }
 
+
 .one {
     width: 1100px;
     height: 110px;
@@ -138,6 +139,9 @@ body {
   }
 
 
+
+
+
   .circle {
     width: 100px;
     height: 100px;
@@ -198,4 +202,77 @@ body {
       opacity: 1;
     }
   }
+
+  .six {
+    float: right; 
+    position: relative; 
+    margin-top:0px;
+  }
   
+  .six img {
+    
+    width: 500px;
+    height: 500px; 
+    position: relative;
+    top: -1490px; 
+    right: 0; 
+  }
+
+  .seven {
+    float: left;
+    position: relative;
+    margin-top: 0px;
+  }
+  
+  .seven img {
+    width: 360px;
+    height: 360px;
+    position: relative;
+    top: -300px;
+    right: 0;
+  }
+
+  .eight {
+    float: left;
+    position: relative;
+    margin-top: 0px;
+  }
+  
+  .eight img {
+    width: 360px;
+    height: 360px;
+    position: relative;
+    top: -1200px;
+    left: 450px;
+  }
+
+
+  .nine {
+    float: left;
+    position: relative;
+    margin-top: 0px;
+  }
+  
+  .nine img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -900px;
+    right: 130px;
+  }
+  
+  .ten {
+    float: left;
+    position: relative;
+    margin-top: 0px;
+  }
+  
+  .ten img {
+    transform: rotate(10deg);
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: -1000px;
+    left: 500px;
+  }
+
