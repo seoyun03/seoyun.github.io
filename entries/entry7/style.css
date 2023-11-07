@@ -7,13 +7,9 @@ body {
 .one {
     width: 1165.522px;
     height: 112.524px;
-    transform: rotate(13.008deg);
+    transform: rotate(13.008deg) translateY(20px); /* Adjust the translateY value as needed for the desired drop effect */
     flex-shrink: 0;
     stroke-width: 1px;
-    width: 1008px;
-    height: 117px;
-    transform: rotate(13.008deg);
-    flex-shrink: 0;
     stroke: #000;
     color: #000;
     font-family: Arial;
@@ -24,6 +20,7 @@ body {
     margin-top: 120px;
 }
 
+
 .two {
     width: 1000px;
     height: 100px;
@@ -31,6 +28,7 @@ body {
     flex-shrink: 0;
     width: 1000px;
     height: 100px;
+    margin-top: 300px;
     flex-shrink: 0;
     color: #000;
     font-family: Arial;
@@ -82,7 +80,7 @@ body {
     width: 800px;
     height: 100px;
     flex-shrink: 0;
-    margin-top: 300px;
+    margin-top: 200px;
     color: #000;
     font-family: Arial;
     font-size: 220px;
@@ -90,3 +88,6 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+
+
+  
