@@ -3,63 +3,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 131.1 64.9" style="enable-background:new 0 0 131.1 64.9;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#231F20;}
-	.st1{fill:#FFFFFF;}
-	.st2{font-family:'ArialMT';}
-	.st3{font-size:12px;}
-	.st4{font-family:'MenoBanner-Regular';}
-	.st5{font-family:'Australia';}
-	.st6{font-size:9.22px;}
-	.st7{font-family:'Glitten-Regular';}
-	.st8{font-family:'BPreplay';}
-	.st9{font-size:12.12px;}
-	.st10{font-family:'aAnotherTag';}
-	.st11{font-family:'Lobster-Regular';}
-	.st12{font-size:9.37px;}
-	.st13{font-size:8.18px;}
-	.st14{font-size:11.52px;}
-	.st15{font-family:'Baskerville';}
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st1{font-family:'ArialMT';}
+	.st2{font-size:8.3814px;}
 </style>
-<g id="Layer_1_00000083054799303398377570000017192114510600661142_">
-	<polygon class="st0" points="10,24.8 0,26.3 0.5,8.2 11.8,8.2 	"/>
-	<polygon class="st0" points="14.9,1.7 27.3,0 27.4,21.6 13.8,19.1 	"/>
-	<polygon class="st0" points="29.4,12.1 40.7,8.4 40.1,25.2 29.4,25.2 	"/>
-	<polygon class="st0" points="117.1,46.6 128.2,48.5 127.8,59.7 117.1,59.7 	"/>
-	<polygon class="st0" points="38.6,46.8 47.7,43.6 47.2,58.2 38.6,58.1 	"/>
-	<polygon class="st0" points="77.3,37.5 88.5,37.5 88,52.1 79.4,52 	"/>
-	<polygon class="st0" points="2.2,41.3 12,42.1 11.6,56.7 3,56.7 	"/>
-	<polygon class="st0" points="42.8,2.4 56.3,3 55.7,19.2 45,19.2 	"/>
-	<polygon class="st0" points="56.3,10.8 69.5,9 68.9,25.2 58.2,25.2 	"/>
-	<polygon class="st1" points="71.7,2.7 84.9,0.8 84.3,17.1 73.6,17 	"/>
-	<polygon class="st1" points="54.5,46.2 64.2,44.8 63.8,57.2 55.9,57.2 	"/>
-	<polygon class="st1" points="14.6,45.2 25.1,43.6 24.7,57.7 16.1,57.6 	"/>
-	<polygon class="st1" points="27,42.9 37.6,41.3 37.1,55.4 28.6,55.3 	"/>
-	<polygon class="st1" points="88.3,7.2 100.9,9.3 100.3,25.5 87.8,26.1 	"/>
-	<polygon class="st1" points="101.1,42.6 114,41.3 115.5,59.7 102.6,55.1 	"/>
-	<polygon class="st1" points="90.2,45.6 98.1,47.8 101.1,59.7 89.8,60.7 	"/>
-	<polygon class="st1" points="66.1,47.8 75.3,49.5 74.9,61.9 65.7,62.3 	"/>
-	<polygon class="st1" points="104.3,4.5 116.9,4.2 116.4,20.5 103.8,21 	"/>
-	<polygon class="st1" points="119.1,11.1 130.7,12.6 131.1,27.1 118.6,27.6 	"/>
-</g>
-<g id="Layer_2_00000097486948764485201040000015658032933507433398_">
-	<text transform="matrix(1 0 0 1 2.24 21.64)" class="st1 st2 st3">V</text>
-	<text transform="matrix(1 0 0 1 3.48 53.43)" class="st1 st2 st3">B</text>
-	<text transform="matrix(1 0 0 1 16.33 14.63)" class="st1 st4 st3">A</text>
-	<text transform="matrix(1 0 0 1 79.42 49.02)" class="st1 st4 st3">R</text>
-	<text transform="matrix(1 0 0 1 31.6 21.64)" class="st1 st4 st3">L</text>
-	<text transform="matrix(1 0 0 1 60.22 22.5)" class="st1 st5 st6">N</text>
-	<text transform="matrix(1 0 0 1 39.7 55.39)" class="st1 st5 st6">N</text>
-	<text transform="matrix(1 0 0 1 75.32 13.29)" class="st0 st7 st6">T</text>
-	<text transform="matrix(1 0 0 1 16.4 54.43)" class="st0 st4 st6">O</text>
-	<text transform="matrix(1.36 0 0 1 93.0303 22.5)" class="st0 st8 st9">i</text>
-	<text transform="matrix(1.36 0 0 1 58.46 56.2998)" class="st0 st8 st9">i</text>
-	<text transform="matrix(0.91 0 0 1 29.3799 52.0801)" class="st0 st10 st9">r</text>
-	<text transform="matrix(1.36 0 0 1 105.4404 16.6299)" class="st0 st11 st12">N</text>
-	<text transform="matrix(1.25 0 0 1 66.5303 59.73)" class="st0 st11 st13">N</text>
-	<text transform="matrix(1.27 0 0 1 122.7197 22.6802)" class="st0 st10 st14">O</text>
-	<text transform="matrix(1.27 0 0 1 92.3398 58.1602)" class="st0 st10 st14">O</text>
-	<text transform="matrix(0.89 0 0 1 103.8398 53.5601)" class="st0 st15 st14">M</text>
-	<text transform="matrix(1 0 0 1 48.19 14.2)" class="st1 st11 st3">e</text>
-	<text transform="matrix(1 0 0 1 119.72 56.3)" class="st1 st11 st3">a</text>
-</g>
+<path class="st0" d="M93.5,34.4H42.2c-3.5,0-6.3-2.8-6.3-6.3v0c0-3.5,2.8-6.3,6.3-6.3h51.3c3.5,0,6.3,2.8,6.3,6.3v0
+	C99.8,31.5,96.9,34.4,93.5,34.4z"/>
+<text transform="matrix(1.0925 0 0 1 42.8945 30.7495)" class="st1 st2">AMBRETTE</text>
 </svg>

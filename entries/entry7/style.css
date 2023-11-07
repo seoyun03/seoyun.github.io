@@ -4,3 +4,89 @@ body {
     padding: 0;
 }
 
+.one {
+    width: 1165.522px;
+    height: 112.524px;
+    transform: rotate(13.008deg);
+    flex-shrink: 0;
+    stroke-width: 1px;
+    width: 1008px;
+    height: 117px;
+    transform: rotate(13.008deg);
+    flex-shrink: 0;
+    stroke: #000;
+    color: #000;
+    font-family: Arial;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 120px;
+}
+
+.two {
+    width: 1000px;
+    height: 100px;
+    transform: rotate(-12.532deg);
+    flex-shrink: 0;
+    width: 1000px;
+    height: 100px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Arial;
+    font-size: 220px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.three {
+    width: 800px;
+    height: 100px;
+    transform: rotate(-6deg);
+    flex-shrink: 0;
+    width: 800px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-left: 800px;
+    color: #000;
+    font-family: Arial;
+    font-size: 220px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.four {
+    width: 800px;
+    height: 100px;
+    transform: rotate(15deg);
+    flex-shrink: 0;
+    width: 800px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-left: 800px;
+    margin-top: 300px;
+    color: #000;
+    font-family: Arial;
+    font-size: 220px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.five {
+    width: 800px;
+    height: 100px;
+    transform: rotate(-15deg);
+    flex-shrink: 0;
+    width: 800px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-top: 300px;
+    color: #000;
+    font-family: Arial;
+    font-size: 220px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
