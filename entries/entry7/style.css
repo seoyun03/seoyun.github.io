@@ -5,9 +5,9 @@ body {
 }
 
 .one {
-    width: 1165.522px;
-    height: 112.524px;
-    transform: rotate(13.008deg) translateY(20px); /* Adjust the translateY value as needed for the desired drop effect */
+    width: 1100px;
+    height: 110px;
+    transform: rotate(13.008deg) translateY(20px);
     flex-shrink: 0;
     stroke-width: 1px;
     stroke: #000;
@@ -18,7 +18,18 @@ body {
     font-weight: 400;
     line-height: normal;
     margin-top: 120px;
+    margin-left: 50px;
 }
+
+.one {
+    margin-top: 120px;
+    transition: transform 0.3s;
+  }
+  
+  .one:hover {
+    transform: translateY(20px);
+  }
+  
 
 
 .two {
@@ -38,6 +49,15 @@ body {
     line-height: normal;
 }
 
+.two {
+    margin-top: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .two:hover {
+    transform: translateX(20px);
+  }
+
 .three {
     width: 800px;
     height: 100px;
@@ -54,6 +74,15 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+
+.three {
+    margin-top: 140px;
+    transition: transform 0.3s;
+  }
+  
+  .three:hover {
+    transform: translateY(20px);
+  }
 
 .four {
     width: 800px;
@@ -72,6 +101,16 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+
+.four {
+    margin-top: 250px;
+    transition: transform 0.3s;
+  }
+  
+.four:hover {
+    transform: translateY(20px);
+  }
+
 .five {
     width: 800px;
     height: 100px;
@@ -80,7 +119,7 @@ body {
     width: 800px;
     height: 100px;
     flex-shrink: 0;
-    margin-top: 200px;
+    margin-top: 300px;
     color: #000;
     font-family: Arial;
     font-size: 220px;
@@ -89,5 +128,74 @@ body {
     line-height: normal;
 }
 
+.five {
+    margin-top: 300px;
+    transition: transform 0.3s;
+  }
+  
+.five:hover {
+    transform: translateX(20px);
+  }
 
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: #084615;
+    border-radius: 70%;
+    position: absolute;
+    animation: drop 4s ease infinite;
+    top: -180px;
+    margin-left: 50px;
+  }
+  
+  .circle1 {
+    width: 80px;
+    height: 80px;
+    background-color: #4f2c06;
+    border-radius: 70%;
+    position: absolute;
+    animation: drop 4s ease infinite;
+    top: -10px;
+    margin-left: 790px;
+    animation-delay: 0.4s; /* Delay this circle's animation by 1 second */
+  }
+  
+  .circle2 {
+    width: 130px;
+    height: 130px;
+    background-color: #ffcb94;
+    border-radius: 70%;
+    position: absolute;
+    animation: drop 4s ease infinite;
+    top: -200px;
+    margin-left: 900px;
+    animation-delay: 0.8s; /* Delay this circle's animation by 2 seconds */
+  }
+  
+  .circle3 {
+    width: 70px;
+    height: 70px;
+    background-color: #ffeedb;
+    border-radius: 50%;
+    position: absolute;
+    animation: drop 4s ease infinite;
+    top: 0px;
+    right: 10px;
+    animation-delay: 1s; /* Delay this circle's animation by 3 seconds */
+  }
+  
+  @keyframes drop {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(calc(235vh - 100px));
+      opacity: 1;
+    }
+  }
   
