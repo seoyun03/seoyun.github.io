@@ -51,7 +51,7 @@ h1 {
     margin-left: 880px;
     margin-top: 900px;
     transform: rotate(40deg);
-    z-index: -1;
+    z-index: 3;
     position: absolute;
     top: 0; 
     left: 0;
@@ -88,7 +88,7 @@ h1 {
     margin-left: 190px;
     margin-top: 1080px;
     transform: rotate(15deg);
-    z-index: -2;
+    z-index: 8;
     position: absolute;
     top: 0; 
     left: 0;
@@ -101,7 +101,7 @@ h1 {
 .eight {
     margin-left: 1300px;
     margin-top: 860px;
-    z-index: -2;
+    z-index: 6;
     position: absolute;
     top: 0; 
     left: 0;
@@ -111,6 +111,28 @@ h1 {
     height: 160px;
     position: relative; 
 }
+.one img,
+.two img,
+.three img,
+.four img,
+.five img,
+.six img,
+.seven img,
+.eight img {
+    filter: blur(3px);
+    transition: filter 0.3s ease-in-out;
+}
+.one img:hover,
+.two img:hover,
+.three img:hover,
+.four img:hover,
+.five img:hover,
+.six img:hover,
+.seven img:hover,
+.eight img:hover {
+    filter: blur(0px);
+}
+
 
 .title, .content {
     margin: 0 auto;
