@@ -12,14 +12,14 @@ h1 {
 }
 
 
-
 .one {
     margin-left: 300px;
+    margin-top: 100px;
     position: relative;
 }
 .one img {
-    width: 500px;
-    height: 500px;
+    width: 530px;
+    height: 530px;
 }
 .two {
     margin-left: 660px;
@@ -48,7 +48,7 @@ h1 {
     position: relative; 
 }
 .four {
-    margin-left: 800px;
+    margin-left: 880px;
     margin-top: 900px;
     transform: rotate(40deg);
     z-index: -1;
@@ -63,19 +63,21 @@ h1 {
 }
 .five {
     margin-left: 550px;
-    margin-top: 1000px;
+    margin-top: 1070px;
     z-index: 3;
     position: absolute;
     top: 0; 
     left: 0;
 }
 .five img {
-    width: 400px;
-    height: 400px;
+    width: 480px;
+    height: 480px;
     position: relative; 
 }
 .six {
     margin-left: 280px;
+    margin-top: 50px;
+    transform: rotate(-10deg);
     position: relative;
 }
 .six img {
@@ -84,7 +86,7 @@ h1 {
 }
 .seven {
     margin-left: 190px;
-    margin-top: 980px;
+    margin-top: 1080px;
     transform: rotate(15deg);
     z-index: -2;
     position: absolute;
@@ -97,29 +99,16 @@ h1 {
     position: relative; 
 }
 .eight {
-    margin-left: 300px;
-    margin-top: 1200px;
-    transform: rotate(15deg);
+    margin-left: 1300px;
+    margin-top: 860px;
     z-index: -2;
     position: absolute;
     top: 0; 
     left: 0;
 }
 .eight img {
-    width: 200px;
-    height: 200px;
-    position: relative; 
-}
-.nine {
-    margin-left: 1200px;
-    margin-top: 900px;
-    z-index: -2;
-    position: absolute;
-    top: 0; 
-    left: 0;
-}
-.nine img {
     width: 160px;
     height: 160px;
     position: relative; 
 }
+
