@@ -1,4 +1,125 @@
 body {
-    background-color: #ffe730;
+      background-color: #fff9f0;
+    }
+
+h1 {
+      font-family: "azo-sans-uber", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 250px; 
+      color: rgb(208, 35, 121);
+      margin-top: 50px;
 }
 
+
+
+.one {
+    margin-left: 300px;
+    position: relative;
+}
+.one img {
+    width: 500px;
+    height: 500px;
+}
+.two {
+    margin-left: 660px;
+    margin-top: 800px;
+    z-index: 2;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+.two img {
+    width: 400px;
+    height: 400px;
+    position: relative; 
+}
+.three {
+    margin-left: 900px;
+    margin-top: 550px;
+    z-index: 4;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+.three img {
+    width: 450px;
+    height: 450px;
+    position: relative; 
+}
+.four {
+    margin-left: 800px;
+    margin-top: 900px;
+    transform: rotate(40deg);
+    z-index: -1;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+.four img {
+    width: 600px;
+    height: 600px;
+    position: relative; 
+}
+.five {
+    margin-left: 550px;
+    margin-top: 1000px;
+    z-index: 3;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+.five img {
+    width: 400px;
+    height: 400px;
+    position: relative; 
+}
+.six {
+    margin-left: 280px;
+    position: relative;
+}
+.six img {
+    width: 500px;
+    height: 500px;
+}
+.seven {
+    margin-left: 190px;
+    margin-top: 980px;
+    transform: rotate(15deg);
+    z-index: -2;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+.seven img {
+    width: 200px;
+    height: 200px;
+    position: relative; 
+}
+.eight {
+    margin-left: 300px;
+    margin-top: 1200px;
+    transform: rotate(15deg);
+    z-index: -2;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+.eight img {
+    width: 200px;
+    height: 200px;
+    position: relative; 
+}
+.nine {
+    margin-left: 1200px;
+    margin-top: 900px;
+    z-index: -2;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+.nine img {
+    width: 160px;
+    height: 160px;
+    position: relative; 
+}
