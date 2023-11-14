@@ -11,6 +11,23 @@ h1 {
       margin-top: 50px;
 }
 
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    h1 {
+        font-size: 250px;
+    }
+}
 
 .one {
     margin-left: 300px;
@@ -21,6 +38,29 @@ h1 {
     width: 530px;
     height: 530px;
 }
+@media screen and (max-width: 768px) {
+    .one {
+        margin-left: 60px;
+        margin-top: 100px;
+        position: relative;
+    }
+    .one img {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .one {
+        margin-left: 110px;
+        margin-top: 100px;
+        position: relative;
+    }
+    .one img {
+        width: 330px;
+        height: 330px;
+    }
+}
+
 .two {
     margin-left: 660px;
     margin-top: 800px;
@@ -34,6 +74,37 @@ h1 {
     height: 400px;
     position: relative; 
 }
+@media screen and (max-width: 768px) {
+    .two {
+        margin-left: 170px;
+        margin-top: 380px;
+        z-index: 2;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .two img {
+        width: 140px;
+        height: 140px;
+        position: relative; 
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .two {
+        margin-left: 350px;
+        margin-top: 500px;
+        z-index: 2;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .two img {
+        width: 200px;
+        height: 200px;
+        position: relative; 
+    }
+}
+
 .three {
     margin-left: 900px;
     margin-top: 550px;
@@ -47,6 +118,38 @@ h1 {
     height: 450px;
     position: relative; 
 }
+
+@media screen and (max-width: 768px) {
+    .three {
+        margin-left: 250px;
+        margin-top: 240px;
+        z-index: 4;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .three img {
+        width: 230px;
+        height: 230px;
+        position: relative; 
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .three {
+        margin-left: 470px;
+        margin-top: 280px;
+        z-index: 4;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .three img {
+        width: 350px;
+        height: 350px;
+        position: relative; 
+    }
+}
+
 .four {
     margin-left: 880px;
     margin-top: 900px;
@@ -61,6 +164,39 @@ h1 {
     height: 600px;
     position: relative; 
 }
+@media screen and (max-width: 768px) {
+    .four {
+        margin-left: 250px;
+        margin-top: 380px;
+        transform: rotate(40deg);
+        z-index: 3;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .four img {
+        width: 280px;
+        height: 280px;
+        position: relative; 
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .four {
+        margin-left: 430px;
+        margin-top: 530px;
+        transform: rotate(40deg);
+        z-index: 3;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .four img {
+        width: 400px;
+        height: 400px;
+        position: relative; 
+    }
+}
+
 .five {
     margin-left: 550px;
     margin-top: 1070px;
@@ -74,6 +210,38 @@ h1 {
     height: 480px;
     position: relative; 
 }
+
+@media screen and (max-width: 768px) {
+    .five {
+        margin-left: 130px;
+        margin-top: 470px;
+        z-index: 3;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .five img {
+        width: 200px;
+        height: 200px;
+        position: relative; 
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .five {
+        margin-left: 200px;
+        margin-top: 600px;
+        z-index: 3;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .five img {
+        width: 350px;
+        height: 350px;
+        position: relative; 
+    }
+}
+
 .six {
     margin-left: 280px;
     margin-top: 50px;
@@ -84,6 +252,31 @@ h1 {
     width: 500px;
     height: 500px;
 }
+@media screen and (max-width: 768px) {
+    .six {
+        margin-left: 30px;
+        margin-top: 50px;
+        transform: rotate(-10deg);
+        position: relative;
+    }
+    .six img {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .six {
+        margin-left: 70px;
+        margin-top: 80px;
+        transform: rotate(-10deg);
+        position: relative;
+    }
+    .six img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
 .seven {
     margin-left: 190px;
     margin-top: 1080px;
@@ -98,6 +291,38 @@ h1 {
     height: 200px;
     position: relative; 
 }
+@media screen and (max-width: 768px) {
+    .seven {
+        margin-left: 30px;
+        margin-top: 460px;
+        transform: rotate(15deg);
+        z-index: 8;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .seven img {
+        width: 70px;
+        height: 70px;
+        position: relative; 
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .seven {
+        margin-left: 50px;
+        margin-top: 650px;
+        transform: rotate(15deg);
+        z-index: 8;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .seven img {
+        width: 100px;
+        height: 100px;
+        position: relative; 
+    }
+}
 .eight {
     margin-left: 1300px;
     margin-top: 860px;
@@ -110,6 +335,36 @@ h1 {
     width: 160px;
     height: 160px;
     position: relative; 
+}
+@media screen and (max-width: 768px) {
+    .eight {
+        margin-left: 450px;
+        margin-top: 360px;
+        z-index: 6;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .eight img {
+        width: 50px;
+        height: 50px;
+        position: relative; 
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .eight {
+        margin-left: 750px;
+        margin-top: 500px;
+        z-index: 6;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    .eight img {
+        width: 90px;
+        height: 90px;
+        position: relative; 
+    }
 }
 .one img,
 .two img,
