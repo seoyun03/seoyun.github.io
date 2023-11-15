@@ -1,0 +1,179 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.typekit.net/zqi0pcx.css">
+	  <div class="button-container">
+		  <button>click me!</button>
+	  </div>
+	  The <span class="list-one"></span> <span class="list-two"></span> will go to the <span class="list-three"></span>.
+	
+	<!-- 
+	***** START CSS ***** 
+	-->
+	<style>
+
+body {
+      margin: 75px;
+      font-size: 40px;
+      font-family: "roc-grotesk", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+
+.button-container {
+    position: fixed;
+    bottom: 30px;
+    right: 300px;
+}
+
+
+button {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 2px solid black;
+  box-shadow: 0 5px #999;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+    .list-one {
+      color: hotpink;
+    }
+
+    .list-two {
+      color: purple;
+    }
+
+    .list-three {
+      color: skyblue;
+    }
+
+	</style>
+	<!-- 
+	***** END CSS ***** 
+	-->
+
+
+	<!-- 
+	***** START JAVASCRIPT ***** 
+	-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script type="text/javascript">
+		
+$(document).ready(function() {
+
+// list one content
+var one = [
+	"cute",
+	"clean",
+	"evil",
+	"crunchy",
+	"down",
+	"natural",
+	"attractive",
+	"soft",
+	"comfy",
+	"gorgeous",
+	"old",
+	"happy",
+	"beautiful",
+	"sticky",
+	"skinny",
+];
+
+// list two content
+var two = [
+	"teacher",
+	"cat",
+	"dog",
+	"bug",
+	"pillow",
+	"oval",
+	"jacket",
+	"friend",
+	"cookie",
+	"fountain",
+	"phone",
+	"deer",
+	"pool",
+	"door",
+	"word",
+];
+
+// list three content
+var three = [
+	"cafe",
+	"park",
+	"trampoline",
+	"zoo",
+	"pool",
+	"farm",
+	"rooftop",
+	"mall",
+	"market",
+	"lab",
+	"bar",
+	"university",
+	"classroom",
+	"party"
+];
+
+
+// This is a very common randomizing function.
+// It takes a list (array) and returns one at random.
+function select_random(x){
+	y = x[Math.floor(Math.random()*x.length)];
+	return y;
+}
+
+function generate(){
+
+	// Select a random item from each list
+	var selected_one = select_random(one);
+	var selected_two = select_random(two);
+	var selected_three = select_random(three);
+
+	// Take the selected (random) item from list and make it visible
+	$('.list-one').html(selected_one);
+	$('.list-two').html(selected_two);
+	$('.list-three').html(selected_three);
+
+}
+
+$('button').click(function(){
+	generate();
+});
+
+generate();
+
+});
+
+
+	</script>
+	<!-- 
+	***** END JAVASCRIPT ***** 
+	-->
