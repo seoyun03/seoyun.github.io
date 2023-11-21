@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 900px;
+    height: 1000px;
     position: absolute;
     object-fit: cover;
     mix-blend-mode: lighten;
@@ -52,7 +52,30 @@ button {
         position: absolute;
         right: 400px;
     }
-
+    @media screen and (max-width: 768px) {
+        .one {
+            position: relative;
+        }
+        .one img {
+            width: 300px;
+            height: 300px;
+            top: 540px;
+            position: absolute;
+            right: 240px;
+        }
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .one {
+            position: relative;
+        }
+        .one img {
+            width: 700px;
+            height: 700px;
+            top: 170px;
+            position: absolute;
+            right: 400px;
+        }
+    }
     .two {
         position: relative;
     }
@@ -62,6 +85,30 @@ button {
         position: absolute;
         top: 70px;
         right: 0;
+    }
+    @media screen and (max-width: 768px) {
+        .two {
+            position: relative;
+        }
+        .two img {
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            top: 430px;
+            left: 100px;
+        }
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .two {
+            position: relative;
+        }
+        .two img {
+            width: 800px;
+            height: 800px;
+            position: absolute;
+            top: 70px;
+            right: 0;
+        }
     }
     .three {
         position: relative;
@@ -75,7 +122,34 @@ button {
         z-index: -1;
         rotate: 15deg;
     }
-
+    @media screen and (max-width: 768px) {
+        .three {
+            position: relative;
+        }
+        .three img {
+            width: 250px;
+            height: 250px;
+            top: 0px;
+            position: absolute;
+            left: 0px;
+            z-index: -1;
+            rotate: 15deg;
+        }
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .three {
+            position: relative;
+        }
+        .three img {
+            width: 400px;
+            height: 400px;
+            top: 0px;
+            position: absolute;
+            left: 20px;
+            z-index: -1;
+            rotate: 15deg;
+        }
+    }
     .four {
         position: relative;
     }
@@ -87,7 +161,32 @@ button {
         right: 620px;
         rotate: 15deg;
     }
-    
+    @media screen and (max-width: 768px) {
+        .four {
+            position: relative;
+        }
+        .four img {
+            width: 250px;
+            height: 250px;
+            top: 50px;
+            position: absolute;
+            right: 5px;
+            rotate: 15deg;
+        }
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .four {
+            position: relative;
+        }
+        .four img {
+            width: 400px;
+            height: 400px;
+            top: 0px;
+            position: absolute;
+            right: 620px;
+            rotate: 15deg;
+        }
+    }
     .five {
         position: relative;
     }
@@ -97,6 +196,32 @@ button {
         top: 350px;
         position: absolute;
         left: 50px;
+        z-index: -1;
+    }
+    @media screen and (max-width: 768px) {
+        .five {
+            position: relative;
+        }
+        .five img {
+            width: 300px;
+            height: 300px;
+            top: 200px;
+            position: absolute;
+            right: 100px;
+    
+        }
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .five {
+            position: relative;
+        }
+        .five img {
+            width: 600px;
+            height: 600px;
+            top: 350px;
+            position: absolute;
+            left: 50px;
+        }
     }
     .six {
         position: relative;
@@ -108,4 +233,30 @@ button {
         position: absolute;
         left: 450px;
         rotate: 20deg;
+    }
+    @media screen and (max-width: 768px) {
+        .six {
+            position: relative;
+        }
+        .six img {
+            width: 200px;
+            height: 200px;
+            top: 330px;
+            position: absolute;
+            left: 300px;
+            rotate: 20deg;
+        }
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .six {
+            position: relative;
+        }
+        .six img {
+            width: 400px;
+            height: 400px;
+            top: 120px;
+            position: absolute;
+            left: 450px;
+            rotate: 20deg;
+        }
     }
