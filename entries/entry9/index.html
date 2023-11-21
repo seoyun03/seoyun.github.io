@@ -43,9 +43,20 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<script>
         $(document).ready(function(){
+            
+            var counter = 1;
+
             $("#show").click(function(){
-                // Show all images
-                $(".one, .two, .three, .four, .five, .six").fadeIn("medium");
+                
+                $(".one, .two, .three, .four, .five, .six").eq(counter - 1).fadeIn("medium");
+
+                
+                counter++;
+
+                
+                if (counter > 6) {
+                    counter = 1;
+                }
             });
         });
     </script>
