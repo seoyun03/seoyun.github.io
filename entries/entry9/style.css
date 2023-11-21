@@ -41,7 +41,19 @@ button {
 .one, .two, .three,.four, .five, .six {
     display: none;
     }
+.container {
+        position: relative;
+        animation: floatAnimation 3s infinite ease-in-out;
+    }
 
+    @keyframes floatAnimation {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
     .one {
         position: relative;
     }
