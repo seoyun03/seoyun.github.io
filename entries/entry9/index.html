@@ -19,20 +19,37 @@
 	<div class="button-container">
 		<button id="show">click me!</button>
 	</div>
-
-	<div class="one">
-		<span>Mon Paris</span> Eau de Perfume is a sweet floral perfume for women.
-	</div>
-
+	<div class="texture">
+		<img src="images/texture.jpg">
+		</div>
+		<div class="one">
+			<img src="images/ysl.png" alt="Image 1">
+		</div>
+		<div class="two">
+			<img src="images/package.png" alt="Image 2">
+		</div>
+		<div class="three">
+			<img src="images/orange.png" alt="Image 3">
+		</div>
+		<div class="four">
+			<img src="images/lavender.png" alt="Image 4">
+		</div>
+		<div class="five">
+			<img src="images/currant.png" alt="Image 5">
+		</div>
+		<div class="six">
+			<img src="images/vanilla.png" alt="Image 6">
+		</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<script>
-		$(document).ready(function(){
-			$("#show").click(function(){
-				$(".one").show();
-			});
-		});
-	</script>
-
+        $(document).ready(function(){
+            $("#show").click(function(){
+                // Show all images
+                $(".one, .two, .three, .four, .five, .six").fadeIn("medium");
+            });
+        });
+    </script>
+	
 </body>
 
 </html>

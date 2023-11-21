@@ -1,35 +1,22 @@
-body {
-    background-color: #ffffff;
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.one {
-    max-width: 70%;
-    font-size: 60px;
-    font-family: "roc-grotesk", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    display: none;
-}
 
-.one span {
-    color: pink;
-    font-size: 70px;
+.texture img{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 900px;
+    position: absolute;
+    object-fit: cover;
+    mix-blend-mode: lighten;
+    z-index: -5;
 }
-
 .button-container {
     position: fixed;
     display: flex;
-    align-items: flex-end; 
-    justify-content: center;
-    height: 90vh; 
-    width: 100%;
+    align-items: flex-start; /* Align items to the start (top) */
+    justify-content: flex-end; /* Justify content to the end (right) */
+    top: 15px;
+    width: 97vw;
 }
-
 button {
   display: inline-block;
   font-size: 20px;
@@ -49,13 +36,74 @@ button {
   
 }
 
+.one, .two, .three,.four, .five, .six {
+    display: none;
+    }
 
-.button:hover {background-color: #3e8e41}
+    .one {
+        position: relative;
+    }
+    .one img {
+        width: 700px;
+        height: 700px;
+        top: 170px;
+        position: absolute;
+        right: 400px;
+    }
 
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
+    .two {
+        position: relative;
+    }
+    .two img {
+        width: 800px;
+        height: 800px;
+        position: absolute;
+        top: 70px;
+        right: 0;
+    }
+    .three {
+        position: relative;
+    }
+    .three img {
+        width: 400px;
+        height: 400px;
+        top: 0px;
+        position: absolute;
+        left: 20px;
+        z-index: -1;
+        rotate: 15deg;
+    }
 
-
+    .four {
+        position: relative;
+    }
+    .four img {
+        width: 400px;
+        height: 400px;
+        top: 0px;
+        position: absolute;
+        right: 620px;
+        rotate: 15deg;
+    }
+    
+    .five {
+        position: relative;
+    }
+    .five img {
+        width: 600px;
+        height: 600px;
+        top: 350px;
+        position: absolute;
+        left: 50px;
+    }
+    .six {
+        position: relative;
+    }
+    .six img {
+        width: 400px;
+        height: 400px;
+        top: 120px;
+        position: absolute;
+        left: 450px;
+        rotate: 20deg;
+    }
