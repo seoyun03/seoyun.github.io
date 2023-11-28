@@ -1,274 +1,61 @@
-
-.texture img{
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 1000px;
-    position: absolute;
-    object-fit: cover;
-    mix-blend-mode: lighten;
-    z-index: -5;
-}
-
-
-.button-container {
-    position: fixed;
+body {
     display: flex;
-    align-items: flex-start; 
-    justify-content: flex-end;
-    top: 15px;
-    width: 97vw;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(0, 0, 0); /* Set a light background color */
 }
-button {
-  display: inline-block;
-  font-size: 20px;
-  font-family: "roc-grotesk", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  background-color: white;
-  color: black;
-  padding: 10px 20px;
-  border-radius: 30px;
-  border: 2px solid black;
-  box-shadow: 0 5px #999;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  
+h1 {
+    font-size: 30px;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+  }
+span {
+    font-size: 40px;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 176, 191);
 }
 
-.one, .two, .three,.four, .five, .six {
-    display: none;
-    }
-.container {
-        position: relative;
-        animation: floatAnimation 3s infinite ease-in-out;
-    }
+.dispersed-image {
+    position: absolute;
+    width: 150px; 
+    height: 150px; 
+  }
 
-    @keyframes floatAnimation {
-        0%, 100% {
-            transform: translateY(0);
-        }
-        50% {
-            transform: translateY(-10px);
-        }
-    }
-    .one {
-        position: relative;
-    }
-    .one img {
-        width: 700px;
-        height: 700px;
-        top: 170px;
-        position: absolute;
-        right: 400px;
-    }
-    @media screen and (max-width: 768px) {
-        .one {
-            position: relative;
-        }
-        .one img {
-            width: 300px;
-            height: 300px;
-            top: 540px;
-            position: absolute;
-            right: 240px;
-        }
-    }
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-        .one {
-            position: relative;
-        }
-        .one img {
-            width: 700px;
-            height: 700px;
-            top: 170px;
-            position: absolute;
-            right: 400px;
-        }
-    }
-    .two {
-        position: relative;
-    }
-    .two img {
-        width: 800px;
-        height: 800px;
-        position: absolute;
-        top: 70px;
-        right: 0;
-    }
-    @media screen and (max-width: 768px) {
-        .two {
-            position: relative;
-        }
-        .two img {
-            width: 400px;
-            height: 400px;
-            position: absolute;
-            top: 430px;
-            left: 100px;
-        }
-    }
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-        .two {
-            position: relative;
-        }
-        .two img {
-            width: 800px;
-            height: 800px;
-            position: absolute;
-            top: 70px;
-            right: 0;
-        }
-    }
-    .three {
-        position: relative;
-    }
-    .three img {
-        width: 400px;
-        height: 400px;
-        top: 0px;
-        position: absolute;
-        left: 20px;
-        z-index: -1;
-        rotate: 15deg;
-    }
-    @media screen and (max-width: 768px) {
-        .three {
-            position: relative;
-        }
-        .three img {
-            width: 250px;
-            height: 250px;
-            top: 0px;
-            position: absolute;
-            left: 0px;
-            z-index: -1;
-            rotate: 15deg;
-        }
-    }
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-        .three {
-            position: relative;
-        }
-        .three img {
-            width: 400px;
-            height: 400px;
-            top: 0px;
-            position: absolute;
-            left: 20px;
-            z-index: -1;
-            rotate: 15deg;
-        }
-    }
-    .four {
-        position: relative;
-    }
-    .four img {
-        width: 400px;
-        height: 400px;
-        top: 0px;
-        position: absolute;
-        right: 620px;
-        rotate: 15deg;
-    }
-    @media screen and (max-width: 768px) {
-        .four {
-            position: relative;
-        }
-        .four img {
-            width: 250px;
-            height: 250px;
-            top: 50px;
-            position: absolute;
-            right: 5px;
-            rotate: 15deg;
-        }
-    }
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-        .four {
-            position: relative;
-        }
-        .four img {
-            width: 400px;
-            height: 400px;
-            top: 0px;
-            position: absolute;
-            right: 620px;
-            rotate: 15deg;
-        }
-    }
-    .five {
-        position: relative;
-    }
-    .five img {
-        width: 600px;
-        height: 600px;
-        top: 350px;
-        position: absolute;
-        left: 50px;
-        z-index: -1;
-    }
-    @media screen and (max-width: 768px) {
-        .five {
-            position: relative;
-        }
-        .five img {
-            width: 300px;
-            height: 300px;
-            top: 200px;
-            position: absolute;
-            right: 100px;
-    
-        }
-    }
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-        .five {
-            position: relative;
-        }
-        .five img {
-            width: 600px;
-            height: 600px;
-            top: 350px;
-            position: absolute;
-            left: 50px;
-        }
-    }
-    .six {
-        position: relative;
-    }
-    .six img {
-        width: 400px;
-        height: 400px;
-        top: 120px;
-        position: absolute;
-        left: 450px;
-        rotate: 20deg;
-    }
-    @media screen and (max-width: 768px) {
-        .six {
-            position: relative;
-        }
-        .six img {
-            width: 200px;
-            height: 200px;
-            top: 330px;
-            position: absolute;
-            left: 300px;
-            rotate: 20deg;
-        }
-    }
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-        .six {
-            position: relative;
-        }
-        .six img {
-            width: 400px;
-            height: 400px;
-            top: 120px;
-            position: absolute;
-            left: 450px;
-            rotate: 20deg;
-        }
-    }
+
+  #dispersionButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.image-container {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.animated-image {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    transition: transform 0.5s ease-out;
+}
+
+.animated-image:hover {
+    filter: brightness(1.2);
+}
+
