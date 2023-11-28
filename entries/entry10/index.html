@@ -8,6 +8,9 @@
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 <body>
+	<div class="background">
+		<img src="images/hill.png">
+		</div>
 	<h1> Click to <span>Find Your Bloom</span> </h1>
 
   <img id="dispersionButton" src="images/bloom.png" alt="Dispersion Image">
@@ -34,8 +37,8 @@
 
           var initialPosition = $('#dispersionButton').position();
           img.css({
-            top: initialPosition.top + 'px',
-            left: initialPosition.left + 'px'
+            top: $(window).height() / 2,
+          	left: $(window).width() / 2
           });
 
           $('#dispersedContainer').append(img);
