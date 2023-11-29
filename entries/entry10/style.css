@@ -16,11 +16,11 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: "roc-grotesk", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 176, 191);
     text-align: center;
     position: fixed;
     top: 0;
@@ -28,13 +28,6 @@ h1 {
     transform: translateX(-50%);
     z-index: 5;
   }
-span {
-    font-size: 40px;
-    font-family: "roc-grotesk", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: rgb(255, 176, 191);
-}
 
 .dispersed-image {
     position: absolute;
