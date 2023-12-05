@@ -112,22 +112,90 @@ body {
   left: 300px; 
   transform: translateX(-50%);
 }
-
-@keyframes blink {
+@keyframes blink-text1 {
   0% { opacity: 0; }
-  50% { opacity: 1; }
+  25% { opacity: 1; }
+  50% { opacity: 0; }
+  75% { opacity: 1; }
   100% { opacity: 0; }
 }
 
-.text1, .text2, .text3, .text4 {
+@keyframes blink-text2 {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  40% { opacity: 0; }
+  60% { opacity: 1; }
+  80% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes blink-text3 {
+  0% { opacity: 0; }
+  30% { opacity: 1; }
+  60% { opacity: 0; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes blink-text4 {
+  0% { opacity: 0; }
+  15% { opacity: 1; }
+  30% { opacity: 0; }
+  45% { opacity: 1; }
+  60% { opacity: 0; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes blink-text5 {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  50% { opacity: 0; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes blink-text6 {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  40% { opacity: 0; }
+  60% { opacity: 1; }
+  80% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6 {
   font-family: "roc-grotesk", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 15px;
-  color: #d94fff;
+  font-size: 20px;
+  color: #ffffff;
   position: absolute;
   transform: translateX(-50%);
-  animation: blink 1.9s infinite; 
+}
+
+.text1 {
+  animation: blink-text1 4s infinite; /* Adjust the duration as needed */
+}
+
+.text2 {
+  animation: blink-text2 4s infinite; /* Adjust the duration as needed */
+}
+
+.text3 {
+  animation: blink-text3 4s infinite; /* Adjust the duration as needed */
+}
+
+.text4 {
+  animation: blink-text4 4s infinite; /* Adjust the duration as needed */
+}
+
+.text5 {
+  animation: blink-text5 4s infinite; /* Adjust the duration as needed */
+}
+
+.text6 {
+  animation: blink-text6 4s infinite; /* Adjust the duration as needed */
 }
 
 .text1 {
@@ -139,12 +207,19 @@ body {
   bottom: 480px;
   right: 10px;
 }
-
 .text3 {
   bottom: 50px;
   right: 400px;
 }
 .text4 {
   bottom: 300px;
+  left: 150px;
+}
+.text5 {
+  bottom: 200px;
   left: 300px;
+}
+.text6 {
+  top: 100px;
+  right: 500px;
 }
