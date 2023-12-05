@@ -2,14 +2,16 @@ body {
       background-color: #ffffff;
     }
 
-.texture {
-        top: 0px;
-        left: 0px;
-        width: 1700px;
-        height: 2100px;
-        position: absolute;
-        mix-blend-mode:multiply;
-        z-index: -5;
+
+    a[href="../entry7/index.html"] {
+        position: fixed; 
+        top: 10px; 
+        left: 10px; 
+    }
+    a[href="../entry9/index.html"] {
+        position: fixed; 
+        top: 10px; 
+        right: 10px; 
     }
 
 h1 {

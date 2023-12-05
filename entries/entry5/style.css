@@ -1,123 +1,101 @@
 body {
-    background-color: #000000;
+    background: radial-gradient(circle at top right, #fff7ea, #32220e);
     margin: 0;
     padding: 0;
 }
 
 
 
-.custom-text-box {
+a[href="../entry4/final/index.html"] {
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    font-size: 13px;
+    z-index: 1;
+    color: #32220e;
+    background-color: transparent; 
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+  }
+  
+  
+  a[href="../entry4/final/index.html"]:hover {
+    color: rgb(255, 255, 255);
+    background-color:   rgb(0, 0, 0);
+  }
+  
+  a[href="../entry6/index.html"] {
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    font-size: 13px;
+    z-index: 1;
+    color: #32220e;
+    background-color: transparent; 
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+  }
+  
+  
+  a[href="../entry6/index.html"]:hover {
+    color: rgb(255, 255, 255);
+    background-color:  rgb(0, 0, 0);
+  }
+  
+  a[href="../../index.html"] {
+    position: fixed;
+    top: 12px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    z-index: 1;
+    color: #32220e;
+    background-color: transparent; 
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  
+  a[href="../../index.html"]:hover {
+    color: rgb(245, 240, 233);
+    background-color:   rgb(0, 0, 0);
+  }
+
+  
+
+
+.title {
     font-family: "roc-grotesk", sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 100px;
     position: absolute;
-    left: 600px;
-    top: 170px;
-    width: 900px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
     height: 100px;
-    text-align: right;
-    color: #fcf9ee;
-}
-
-
-.fixed {
-    font-family: "roc-grotesk", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-    color: #fcf9ee;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: transparent;
-    z-index: -1;
+    color: #32220e;
 }
 
 
 
 
-.mirror {
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin-top: 20px;
-}
 
-.mirror img {
-    max-width: 150px; 
-    max-height: 150px; 
-    motion-rotation: auto;
-}
-
-
-.rotate-3d {
-    width: 150px; 
-    height: 150px;
-    animation: rotateImage 8s linear infinite; 
-    transform-style: preserve-3d;
-}
-
-
-@keyframes rotateImage {
-    0% {
-        transform: rotateX(0deg) rotateY(0deg);
-    }
-    100% {
-        transform: rotateX(360deg) rotateY(360deg);
-    }
-}
-
-
-
-.container {
-    font-family: 'Bebas Neue', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    min-height: 1000px;
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 100px; 
-}
 
 .centered-text {
     text-align: center; 
     font-family: "roc-grotesk", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
-    color: #fcf9ee;
+    font-size: 18px;
+    color: #32220e;
     max-width: 50%; 
     margin: 0 auto; 
+    margin-top:900px;
 }
 
 
-.item1 {
-    background-color: #ffcfb8;
-}
-.item2 {
-    background-color: #ff9c5a;
-}
-.item3 {
-    background-color: #ff7322;
-    margin-bottom: 100px;
-}
 
-.item {
-    margin: 10px 200px 0; 
-    margin-top: 100px;
-    margin-bottom: 100px;
-    align-items: center;
-    width: 150px;
-    height: 50px;
-    writing-mode: horizontal-tb;
-    max-width: 700px;
-    font-size: 18px; 
-
-}
 
 
 
@@ -128,12 +106,12 @@ body {
     width: 210px;
     height: 150px;
     position: sticky;
-    top: 10px;
+    top: 40px;
     left: 20px;
 }
 .first img {
-    width: 840px; 
-    height: 600px;
+    width: 500px; 
+    height: 500px;
 }
 
 .second {
@@ -175,7 +153,7 @@ body {
 
 .five {
     position: sticky;
-    top: 200px;
+    top: 280px;
     left: 100px;
 }
 
@@ -221,7 +199,7 @@ body {
 
 .nine {
     position: sticky;
-    top: 5px;
+    top: 10px;
     left: 20px;
 }
 .nine img {
@@ -233,8 +211,8 @@ body {
 
 .ten {
     position: sticky;
-    top: 500px;
-    left: 260px;
+    top: 600px;
+    left: 200px;
 }
 .ten img {
     width: 390px;
@@ -265,6 +243,17 @@ body {
     height: 300px; 
     margin-right: 0px;
     margin-bottom: 0px;
+}
+.thirteen {
+    position: sticky;
+    top: 76%;
+    margin-right: 300px;
+}
+.thirteen img {
+    width: 250px; 
+    height: 250px; 
+    margin-left: 800px;
+    margin-bottom: 20px;
 }
 
 

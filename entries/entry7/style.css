@@ -4,6 +4,16 @@ body {
     padding: 0;
 }
 
+a[href="../entry6/index.html"] {
+  position: fixed; 
+  top: 10px; 
+  left: 10px; 
+}
+a[href="../entry8/index.html"] {
+  position: fixed; 
+  top: 10px; 
+  right: 10px; 
+}
 
 .one {
     width: 1100px;

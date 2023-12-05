@@ -2,6 +2,63 @@ body {
     background-color: rgb(91, 197, 29);
 }
 
+a[href="../../entry1/index.html"] {
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    font-size: 13px;
+    z-index: 1;
+    color: #ffffff;
+    background-color: transparent; 
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+}
+
+
+a[href="../../entry1/index.html"]:hover {
+    color: rgb(69, 52, 36);
+    background-color:  rgb(246, 255, 0);
+}
+
+a[href="../../entry3/final/index.html"] {
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    font-size: 13px;
+    z-index: 1;
+    color: #ffffff;
+    background-color: transparent; 
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+}
+
+
+a[href="../../entry3/final/index.html"]:hover {
+    color: rgb(69, 52, 36);
+    background-color:  rgb(246, 255, 0);
+}
+
+a[href="../../index.html"] {
+    position: fixed;
+    top: 12px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    z-index: 1;
+    color: #ffffff;
+    background-color: transparent; 
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
+a[href="../../index.html"]:hover {
+    color: rgb(69, 52, 36);
+    background-color:  rgb(246, 255, 0);
+}
+
+
+
 h1 {
     font-family: "roc-grotesk", sans-serif;
     font-weight: 600;

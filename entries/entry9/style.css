@@ -9,14 +9,23 @@
     mix-blend-mode: lighten;
     z-index: -5;
 }
-
+a[href="../entry8/index.html"] {
+    position: fixed; 
+    top: 10px; 
+    left: 10px; 
+}
+a[href="../entry10/index.html"] {
+    position: fixed; 
+    top: 10px; 
+    right: 10px; 
+}
 
 .button-container {
     position: fixed;
     display: flex;
     align-items: flex-start; 
     justify-content: flex-end;
-    top: 15px;
+    top: 40px;
     width: 97vw;
 }
 button {

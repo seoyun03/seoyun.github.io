@@ -4,6 +4,18 @@ body {
     padding: 0;
 }
 
+a[href="../entry5/index.html"] {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+a[href="../entry7/index.html"] {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
 .background {
     position: fixed;
     top: 0;
@@ -19,8 +31,6 @@ body {
     max-width: 100%;
     height: auto;
 }
-
-
 
 
 .first {
@@ -64,23 +74,29 @@ body {
     animation-fill-mode: forwards;
 }
 
-@media screen and (max-width: 768px) {
-  h1 {
-      font-size: 150px;
+@media (min-width: 200px) {
+  .first, .second {
+    font-size: 8px;
   }
 }
 
-/* Small-sized screens */
-@media screen and (max-width: 576px) {
-  h1 {
-      font-size: 100px;
+@media (min-width: 768px) {
+  .first, .second {
+    font-size: 13px;
   }
 }
 
-/* Extra small-sized screens */
-@media screen and (max-width: 375px) {
-  h1 {
-      font-size: 80px;
+
+@media (min-width: 992px) {
+  .first, .second {
+    font-size: 15px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .first, .second {
+    font-size: 20px;
   }
 }
 
