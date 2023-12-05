@@ -1,4 +1,6 @@
-
+body {
+    background-color: rgb(241, 226, 195);
+}
 .texture img{
     top: 0;
     left: 0;
@@ -6,21 +8,70 @@
     height: 1000px;
     position: absolute;
     object-fit: cover;
-    mix-blend-mode: lighten;
+    mix-blend-mode:luminosity;
     z-index: -5;
 }
-a[href="../entry8/index.html"] {
-    position: fixed; 
-    top: 10px; 
-    left: 10px; 
-}
-a[href="../entry10/index.html"] {
-    position: fixed; 
-    top: 10px; 
-    right: 10px; 
-}
 
-.button-container {
+
+a[href="../entry8/index.html"] {
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    font-size: 13px;
+    z-index: 1;
+    color: rgb(84, 54, 12);
+    background-color: transparent; 
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+  }
+  
+  
+  a[href="../entry8/index.html"]:hover {
+    color: rgb(255, 255, 255);
+    background-color:  rgb(84, 54, 12);
+  }
+  
+  a[href="../entry10/index.html"] {
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    font-size: 13px;
+    z-index: 1;
+    color: rgb(84, 54, 12);
+    background-color: transparent; 
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+  }
+  
+  
+  a[href="../entry10/index.html"]:hover {
+    color: rgb(255, 255, 255);
+    background-color:rgb(84, 54, 12);
+  }
+  
+  a[href="../../index.html"] {
+    position: fixed;
+    top: 12px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    z-index: 1;
+    color: rgb(84, 54, 12);
+    background-color: transparent; 
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  
+  a[href="../../index.html"]:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(84, 54, 12);
+  }
+
+
+
+  
+  .button-container {
     position: fixed;
     display: flex;
     align-items: flex-start; 
@@ -28,41 +79,138 @@ a[href="../entry10/index.html"] {
     top: 40px;
     width: 97vw;
 }
+
 button {
-  display: inline-block;
-  font-size: 20px;
-  font-family: "roc-grotesk", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  background-color: white;
-  color: black;
-  padding: 10px 20px;
-  border-radius: 30px;
-  border: 2px solid black;
-  box-shadow: 0 5px #999;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  
+    
+    display: inline-block;
+    font-size: 20px;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 0 5px #999;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    z-index: 5;
+    transition: background-color 0.3s, box-shadow 0.3s; 
 }
 
-.one, .two, .three,.four, .five, .six {
-    display: none;
-    }
-.container {
-        position: relative;
-        animation: floatAnimation 3s infinite ease-in-out;
-    }
+button:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 8px #666;
+}
 
-    @keyframes floatAnimation {
-        0%, 100% {
-            transform: translateY(0);
-        }
-        50% {
-            transform: translateY(-10px);
-        }
+button:active {
+    background-color: #ccc;
+    box-shadow: 0 3px #666; 
+}
+
+
+
+
+.one, .two, .three, .four, .five, .six {
+    display: none;
+}
+
+
+.container {
+    position: relative;
+}
+
+
+@keyframes floatAnimationOne {
+    0%, 100% {
+        transform: translateY(0);
     }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+@keyframes floatAnimationTwo {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+@keyframes floatAnimationThree {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+@keyframes floatAnimationFour {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+@keyframes floatAnimationFive {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+@keyframes floatAnimationSix {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+.one {
+    animation: floatAnimationOne 4s infinite ease-in-out; 
+}
+
+.two {
+    animation: floatAnimationTwo 3s infinite ease-in-out;
+}
+
+.three {
+    animation: floatAnimationThree 5s infinite ease-in-out; 
+}
+
+.four {
+    animation: floatAnimationFour 4.5s infinite ease-in-out; 
+}
+
+.five {
+    animation: floatAnimationFive 3.5s infinite ease-in-out; 
+}
+
+.six {
+    animation: floatAnimationSix 4s infinite ease-in-out; 
+}
+
+
+
+
     .one {
         position: relative;
     }
@@ -135,8 +283,8 @@ button {
         position: relative;
     }
     .three img {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         top: 0px;
         position: absolute;
         left: 20px;
@@ -148,8 +296,8 @@ button {
             position: relative;
         }
         .three img {
-            width: 250px;
-            height: 250px;
+            width: 200px;
+            height: 200px;
             top: 0px;
             position: absolute;
             left: 0px;
@@ -162,8 +310,8 @@ button {
             position: relative;
         }
         .three img {
-            width: 400px;
-            height: 400px;
+            width: 300px;
+            height: 300px;
             top: 0px;
             position: absolute;
             left: 20px;

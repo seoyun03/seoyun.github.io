@@ -6,17 +6,54 @@ body {
     margin: 0;
     background-color: rgb(255, 255, 255); /* Set a light background color */
 }
-
 a[href="../entry9/index.html"] {
-    position: fixed; 
-    top: 10px; 
-    left: 10px; 
-}
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    font-size: 13px;
+    z-index: 1;
+    color: #000000;
+    background-color: transparent; 
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+  }
+  
+  
+  a[href="../entry9/index.html"]:hover {
+    color: rgb(255, 255, 255);
+    background-color:  rgb(255, 176, 191);
+  }
+  
+  
+  a[href="../../index.html"] {
+    position: fixed;
+    top: 12px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    z-index: 1;
+    color: #000000;
+    background-color: transparent; 
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  
+  a[href="../../index.html"]:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 176, 191);
+  }
+
+
+
+
 a {
     position: absolute;
     top: 0;
     left: 0;
   }
+
+
 .background img{
     top: 0;
     left: 0;
@@ -34,7 +71,7 @@ h1 {
     color: rgb(255, 176, 191);
     text-align: center;
     position: fixed;
-    top: 0;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 5;
