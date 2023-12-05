@@ -1,7 +1,16 @@
 body {
       background-color: #ffffff;
     }
-
+    .texture img{
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 2070px;
+        position: absolute;
+        object-fit: cover;
+        mix-blend-mode:darken;
+        z-index: -5;
+    }
     a[href="../entry7/index.html"] {
         position: fixed;
         top: 0px;

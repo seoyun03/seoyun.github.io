@@ -325,7 +325,7 @@ button:active {
     .four img {
         width: 400px;
         height: 400px;
-        top: 0px;
+        top: -50px;
         position: absolute;
         right: 620px;
         rotate: 15deg;
@@ -337,7 +337,7 @@ button:active {
         .four img {
             width: 250px;
             height: 250px;
-            top: 50px;
+            top: 20px;
             position: absolute;
             right: 5px;
             rotate: 15deg;
