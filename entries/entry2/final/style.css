@@ -38,7 +38,7 @@ a[href="../../entry3/final/index.html"]:hover {
     background-color:  rgb(246, 255, 0);
 }
 
-a[href="../../index.html"] {
+a[href="../../../index.html"] {
     position: fixed;
     top: 12px;
     left: 50%;
@@ -52,7 +52,7 @@ a[href="../../index.html"] {
 }
 
 
-a[href="../../index.html"]:hover {
+a[href="../../../index.html"]:hover {
     color: rgb(69, 52, 36);
     background-color:  rgb(246, 255, 0);
 }
